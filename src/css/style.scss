@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+@import "_reset.scss";
+@import "_variable.scss";
+@import "_functions.scss";
+$fa-font-path: "../../node_modules/font-awesome/fonts";
+@import "../../node_modules/font-awesome/scss/font-awesome.scss";
+@import "_common.scss";
+@import "_main.scss";

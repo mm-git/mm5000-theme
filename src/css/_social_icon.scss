@@ -1,0 +1,97 @@
+$social_list: (
+  facebook: (
+    content: '\f09a',
+    background: #3b5998
+  ),
+  twitter: (
+    content: '\f099',
+    background: #00aced
+  ),
+  google-plus: (
+    content: '\f0d5',
+    background: #cd4132
+  ),
+  pinterest: (
+    content: '\fod2',
+    background: #cb2027
+  ),
+  linkedin: (
+    content: '\f0e1',
+    background: #005a87
+  ),
+  tumblr: (
+    content: '\f173',
+    background: #2b4761
+  ),
+  vimeo: (
+    content: '\f27d',
+    background: #1bb7ea
+  ),
+  instagram:(
+    content: '\f16d',
+    background: #517fa4
+  ),
+  flickr:(
+    content: '\f16e',
+    background: #0063db
+  ),
+  youtube:(
+    content: '\f16a',
+    background: #cd4132
+  ),
+  rss:(
+    content: '\f09e',
+    background: #fc7216
+  ),
+  github:(
+    content: '\f09b',
+    background: #151013
+  )
+);
+
+.social-icons {
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    li {
+      padding-right: 1px;
+
+      a {
+        display: inline-block;
+        font-family: FontAwesome, sans-serif;
+        margin: 2px;
+        border-radius: 2px;
+        font-size: $social_icon_size;
+        color: $base_color_gray;
+        transition: all 0.1s ease-out;
+        vertical-align: top;
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-decoration: inherit;
+        width: $social_icon_size + 8px;
+        height: $social_icon_size + 8px;
+        line-height: $social_icon_size + 8px;
+
+        &:hover {
+          color: #fff !important;
+        }
+      }
+    }
+
+    @each $social, $value in $social_list {
+      li.#{$social} a:before {
+        content: map_get($value, content);
+      }
+      li.#{$social} a:hover {
+        background: map_get($value, background);
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,15 @@
+<footer>
+  <div class="article-footer">
+    <div class="post-date">
+      {{ .Date.Format .Site.Params.Date_format }}
+    </div>
+    <div class="post-category">
+      <a href="category/{{ .Params.category }}" title="{{ .Params.category }}">
+        {{ .Params.category  }}
+      </a>
+    </div>
+    <div class="post-author">
+      {{ .Params.author  }}
+    </div>
+  </div>
+</footer>

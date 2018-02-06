@@ -1,0 +1,29 @@
+{{ if isset .Site.Params "slider" }}
+{{ if .Site.Params.slider.enable }}
+<section>
+  <div class="slider">
+    {{ range $index, $page := first .Site.Params.slider.num_features (where .Site.Pages.ByDate "Type" "group") }}
+    {{ if and (isset .Params "banner") (not (eq .Params.banner "")) }}
+    <div class="slide {{ if not (eq $index 0) }} hidden {{ end }}">
+      <figure>
+        <a href="{{ .Permalink }}" title="{{ .Title }}">
+          <img src="{{ .Params.banner }}" class="slide-image" alt="{{ .Title }}" title="{{ .Title }}">
+        </a>
+      </figure>
+      <article>
+        <div class="slide-text {{ if (eq .Params.banner_pos "left" ) }} slide-text-left {{ else }} slide-text-right {{ end }}">
+          <h1 class="slide-title">
+            <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+          </h1>
+          <div class="slide-content">
+            {{ printf "%s" .Summary | markdownify }}
+          </div>
+        </div>
+      </article>
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+{{ end }}

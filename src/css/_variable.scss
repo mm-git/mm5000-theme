@@ -1,0 +1,36 @@
+// base colors
+$base_color_white: #f8f8f8;
+$base_color_black: #0f0f0f;
+$base_color_gray: #808080;
+$base_color_water: #4878a8;
+$base_color_sky: #a8d8f0;
+$base_color_peachy: #f07830;
+$base_color_brawn: #781800;
+$base_color_blue: #487890;
+
+
+$base_color_white_dark: darken($base_color_white, 25%);
+$base_color_black_light: lighten($base_color_black, 25%);
+$base_color_water_light: lighten($base_color_water, 8%);
+$base_color_water_dark: darken($base_color_water, 8%);
+$base_color_sky_light: lighten($base_color_sky, 8%);
+$base_color_sky_dark: darken($base_color_sky, 8%);
+$base_color_peachy_light: lighten($base_color_peachy, 8%);
+$base_color_peachy_dark: darken($base_color_peachy, 8%);
+$base_color_brawn_light: lighten($base_color_brawn, 8%);
+$base_color_brawn_dark: darken($base_color_brawn, 8%);
+$base_color_blue_light: lighten($base_color_blue, 8%);
+$base_color_blue_dark: darken($base_color_blue, 8%);
+
+// font
+$font_size: 16px;
+$social_icon_size: 16px;
+
+// size
+$border_radius: 3px;
+$content-width: 1018px;
+$slider_height: 400px;
+$summary_image_height: 200px;
+$summary_footer_height: 35px;
+
+$button_height: 20px;

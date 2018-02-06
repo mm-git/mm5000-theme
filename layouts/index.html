@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  {{ partial "head" . }}
+  <body>
+    <div class="main_container">
+      <header>
+        {{ partial "header" . }}
+        {{ partial "nav" . }}
+        {{ partial "slider" . }}
+      </header>
+      <div class="contents">
+        {{ partial "article" . }}
+        {{ partial "widget" . }}
+      </div>
+    </div>
+    <footer>
+      {{ partial "footer" . }}
+    </footer>
+    {{ partial "googleAnalytics" . }}
+  </body>
+</html>
+

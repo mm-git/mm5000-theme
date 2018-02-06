@@ -1,0 +1,21 @@
+<article class="summary_post">
+  <figure>
+    <div class="summary-image-frame">
+      <a href="{{ .Permalink }}" title="{{ .Title }}">
+        <img src="{{ .Params.banner }}" class="summary-image" alt="{{ .Title }}" title="{{ .Title }}">
+      </a>
+    </div>
+  </figure>
+  <header>
+    <h2 class="summary-title">
+      <a href="{{ .Permalink }}" title="{{ .Title }}">
+        {{ .Title }} {{ if .Draft }}:: DRAFT{{ end }}
+      </a>
+    </h2>
+  </header>
+  <div class="summary-description">
+      {{ .Description }}
+  </div>
+  {{ partial "article_share" . }}
+  {{ partial "article_footer" . }}
+</article>

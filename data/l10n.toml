@@ -1,0 +1,61 @@
+[articles]
+    read_more = "続きを読む"
+    words = "words"
+    readingtime = "minute read"
+    share = "Share this:"
+    comments = "コメント"
+
+# Linked older/newer posts at the bottom of each one
+[articles.linked_posts]
+    older = "←"
+    newer = "→"
+
+[search]
+    placeholder = "Search"
+
+[pagination]
+    previous = "Previous"
+    next = "Next"
+
+[profile]
+    follow_button = "Like Us"
+    tags = "Tags"
+    posts = "Posts"
+
+[page_not_found]
+    title = "Error 404 - Page NOT Found"
+    subtitle = "The content you're looking for doesn't seem to exist."
+
+[social]
+    facebook = "Facebookを開く"
+    twitter = "Twitterを開く"
+    googleplus = "Google plusを開く"
+    pinterest = "Pinterestを開く"
+    linkedin = "LinkedInを開く"
+    tumblr = "Tumblrを開く"
+    vimeo = "Vimeoを開く"
+    instagram = "Instagramを開く"
+    flickr = "Flickrを開く"
+    youtube = "YouTubeを開く"
+    github = "GitHubを開く"
+    RSS = "ブログを購読する"
+
+[widgets.categories]
+    title = "Categories"
+
+[widgets.recent_articles]
+    title = "Recents"
+
+[widgets.tag_cloud]
+    title = "Tag cloud"
+    min_count = 2  # If you have many posts, then tag with just one topic makes the tag cloud cluttered. This variable can help reduce the clutter.
+
+[widgets.mailchimp]
+    title = "Subscribe via Email"
+    subscribe_text = "Enter your email address to subscribe to this blog and receive notifications of new posts by email."
+
+[widgets.tags]
+    title = "Tags"
+
+[authors]
+    Title = "Authors"
