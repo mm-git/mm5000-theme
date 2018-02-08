@@ -1,21 +1,16 @@
 [articles]
     read_more = "続きを読む"
-    words = "words"
-    readingtime = "minute read"
-    share = "Share this:"
     comments = "コメント"
-
-# Linked older/newer posts at the bottom of each one
-[articles.linked_posts]
-    older = "←"
-    newer = "→"
+    number = "件"
 
 [search]
-    placeholder = "Search"
+    placeholder = "検索"
 
 [pagination]
-    previous = "Previous"
-    next = "Next"
+    first = "最初の記事"
+    previous = "古い記事"
+    next = "新しい記事"
+    last = "最後の記事"
 
 [profile]
     follow_button = "Like Us"

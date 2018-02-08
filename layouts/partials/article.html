@@ -1,29 +1,63 @@
 <section>
-  {{ $paginator := .Paginate (where .Site.Pages "Type" "blog") }}
+  {{ $paginator := .Paginate (where (where .Site.Pages "IsPage" true) "Section" "blog") }}
   <div class="article-list">
     {{ range $paginator.Pages }}
-      {{ if isset .Params "title" }}
-        {{ .Render "summary" }}
-      {{ end }}
+      {{ .Render "summary" }}
     {{ end }}
 
     <article class="summary_post">
-      <nav role="pagination">
-        <div class="pagination__page-number">{{ $paginator.PageNumber }} / {{ $paginator.TotalPages }}</div>
-        <div class="pagination__arrow">
-          {{ if $paginator.HasPrev }}
-          <a href="{{ $paginator.Prev.URL }}">&lt;&lt;&lt;</a>
+      <div class="pagination">
+        <div class="pagination-arrow">
+          {{ if eq $paginator.PageNumber 1 }}
+            <span class="pagination-arrow-left disable-arrow">
+              {{ .Site.Data.l10n.pagination.first }}
+            </span>
           {{ else}}
-          <span class="disable_arrow">&lt;&lt;&lt;</span>
-          {{ end }}
-
-          {{ if $paginator.HasNext }}
-          <a href="{{ $paginator.Next.URL }}">&gt;&gt;&gt;</a>
-          {{ else}}
-          <span class="disable_arrow">&gt;&gt;&gt;</span>
+            <a class="pagination-arrow-left" href="{{ $paginator.First.URL }}">
+              {{ .Site.Data.l10n.pagination.first }}
+            </a>
           {{ end }}
         </div>
-      </nav>
+        <div class="pagination-arrow">
+          {{ if $paginator.HasPrev }}
+            <a class="pagination-arrow-left" href="{{ $paginator.Prev.URL }}">
+              {{ .Site.Data.l10n.pagination.previous }}
+            </a>
+          {{ else}}
+            <span class="pagination-arrow-left disable-arrow">
+              {{ .Site.Data.l10n.pagination.previous }}
+            </span>
+          {{ end }}
+        </div>
+        <div class="pagination-page-number">
+          {{ $startNum := (add (mul (sub $paginator.PageNumber 1) $paginator.PageSize) 1) }}
+          {{ $endNum := (sub (add $startNum  $paginator.NumberOfElements) 1)}}
+
+          {{ $startNum }}-{{ $endNum }}({{ $paginator.TotalNumberOfElements }} {{ .Site.Data.l10n.articles.number }})
+        </div>
+        <div class="pagination-arrow">
+          {{ if $paginator.HasNext }}
+            <a class="pagination-arrow-right" href="{{ $paginator.Next.URL }}">
+              {{ .Site.Data.l10n.pagination.next }}
+            </a>
+          {{ else }}
+            <span class="pagination-arrow-right disable-arrow">
+              {{ .Site.Data.l10n.pagination.next }}
+            </span>
+          {{ end }}
+        </div>
+        <div class="pagination-arrow">
+          {{ if eq $paginator.PageNumber $paginator.TotalPages }}
+            <span class="pagination-arrow-right disable-arrow">
+              {{ .Site.Data.l10n.pagination.last }}
+            </span>
+          {{ else }}
+            <a class="pagination-arrow-right" href="{{ $paginator.Last.URL }}">
+              {{ .Site.Data.l10n.pagination.last }}
+            </a>
+          {{ end }}
+        </div>
+      </div>
     </article>
   </div>
 </section>

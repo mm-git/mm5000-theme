@@ -1,0 +1,53 @@
+baseURL = "https://mm-5000.com"
+title = "5000kmの夏休み"
+subtitle = "2010年夏休み。１ヶ月をかけてアメリカ大陸5000km横断。その後のブログ。"
+languageCode = "ja-JP"
+theme = "mm5000-theme"
+#DisqusShortname = ""
+GoogleAnalytics = "UA-81918210-2"
+canonifyURLs = true
+hasCJKLanguage = true
+paginate = 5
+
+[params]
+    author = "M氏"
+    site_description = "2010年夏休み。１ヶ月をかけてアメリカ大陸5000km横断。その後のブログ。"
+    copyright  = "Copyright"
+    avatar = "css/images/avatar.png"
+    logo = "css/images/logo.png"
+    date_format = " 2006-01-02"
+
+[[menu.main]]
+    name  = "アメリカ横断"
+    url   = "/across_america/"
+    weight = 10
+
+[[menu.main]]
+    name  = "その他"
+    url   = "/etc/"
+    weight = 20
+
+[social]
+    twitter = "wRoute"
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    recent_articles = true
+    categories = true
+    tags = true
+    tag_cloud = true
+    archives = false
+    search = true
+    mailchimp = false
+    mailchimpform = ""
+    author = false
+    facebook_like = true
+
+[params.slider]
+    enable = true
+    num_features = 6
+
+[Taxonomies]
+    tags = "tags"
+    categories = "categories"
+    author = "author"

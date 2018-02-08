@@ -143,6 +143,30 @@
     .summary-description {
       padding: 15px;
     }
+
+    .pagination {
+      padding: 20px 15px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-size: $font_size * 0.95;
+
+      > .pagination-arrow {
+        > .pagination-arrow-left:before {
+          font-family: FontAwesome, sans-serif;
+          content: '\f190';
+        }
+
+        .pagination-arrow-right:after {
+          font-family: FontAwesome, sans-serif;
+          content: '\f18e';
+        }
+
+        .disable-arrow {
+          color: $base_color_gray;
+        }
+      }
+    }
   }
 }
 
@@ -152,7 +176,7 @@
   ul:before {
     color: $base_color_gray;
     font-size: $social_icon_size - 2px;
-    content: "記事をシェア";
+    content: $string_share;
     line-height: $social_icon_size + 10px;
   }
 }
