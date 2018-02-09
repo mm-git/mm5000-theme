@@ -28,20 +28,30 @@ paginate = 5
     weight = 20
 
 [social]
-    twitter = "wRoute"
+#    github          = ""
+#    flickr          = ""
+#    instagram       = ""
+#    youtube         = ""
+#    vimeo           = ""
+#    tumblr          = ""
+#    linkedin        = ""
+#    pinterest       = ""
+#    googleplus      = ""
+#    facebook        = ""
+    twitter         = "wRoute"
 
 # Enable and disable widgets for the right sidebar
+#
 [params.widgets]
-    recent_articles = true
-    categories = true
-    tags = true
-    tag_cloud = true
-    archives = false
-    search = true
-    mailchimp = false
-    mailchimpform = ""
-    author = false
-    facebook_like = true
+    order = [
+      "search",
+      "categories",
+      "tags",
+      "recent_articles",
+#      "tag_cloud",
+      "archives",
+      "author",
+    ]
 
 [params.slider]
     enable = true

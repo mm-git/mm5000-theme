@@ -8,7 +8,6 @@ $base_color_peachy: #f07830;
 $base_color_brawn: #781800;
 $base_color_blue: #487890;
 
-
 $base_color_white_dark: darken($base_color_white, 25%);
 $base_color_black_light: lighten($base_color_black, 25%);
 $base_color_water_light: lighten($base_color_water, 8%);
@@ -23,17 +22,18 @@ $base_color_blue_light: lighten($base_color_blue, 8%);
 $base_color_blue_dark: darken($base_color_blue, 8%);
 
 // font
-$font_size: 16px;
+$base_font_size: 16px;
 $social_icon_size: 16px;
 
 // size
 $border_radius: 3px;
-$content-width: 1018px;
+$content-width: 85vw;
 $slider_height: 400px;
 $summary_image_height: 200px;
 $summary_footer_height: 35px;
+$widget_width: 20vw;
 
 $button_height: 20px;
 
-// i10n
+// l10n
 $string_share: "記事をシェア";

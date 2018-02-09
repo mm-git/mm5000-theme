@@ -1,63 +1,82 @@
-body {
-  background: url('../image/background.png');
-  color: $base_color_black;
-  font-size: $font_size;
-  font-family: 'メイリオ', 'Meiryo', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ ゴシック', 'Osaka', sans-serif;
-  margin: 0;
-  border-top: $base_color_blue 6px solid;
-}
+@mixin common($ratio, $font_size) {
+  body {
+    background: url('../image/background.png');
+    color: $base_color_black;
+    font-size: $font_size;
+    font-family: 'メイリオ', 'Meiryo', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ ゴシック', 'Osaka', sans-serif;
+    margin: 0;
+    border-top: $base_color_blue 6px solid;
+  }
 
-a {
-  color: $base_color_black;
-  font-weight: bold;
-  text-decoration: none;
+  a {
+    color: $base_color_black;
+    font-weight: bold;
+    text-decoration: none;
 
-  &:hover {
-    color: $base_color_black_light;
-    text-decoration: underline;
+    &:hover {
+      color: $base_color_black_light;
+      text-decoration: underline;
+    }
+  }
+
+  h1 {
+    font-size: $font_size * 2;
+    font-weight: bolder;
+  }
+
+  h2 {
+    font-size: $font_size * 1.5;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: $font_size * 1.2;
+    font-weight: bold;
+  }
+
+  h4 {
+    font-size: $font_size;
+    font-weight: normal;
+  }
+
+  h5 {
+    font-size: $font_size * 0.9;
+    font-weight: normal;
+  }
+
+  h6 {
+    font-size: $font_size * 0.75;
+    font-weight: lighter;
+  }
+
+  .nolink {
+    cursor: default;
+    pointer-events: none;
+    text-decoration: none;
+  }
+
+  .awesome {
+    font-family: FontAwesome, sans-serif;
+  }
+
+  .hidden {
+    display: none;
   }
 }
 
-h1 {
-  font-size: $font_size * 2;
-  font-weight: bolder;
-}
-
-h2 {
-  font-size: $font_size * 1.5;
-  font-weight: bold;
-}
-
-h3 {
-  font-size: $font_size * 1.2;
-  font-weight: bold;
-}
-
-h4 {
-  font-size: $font_size;
-  font-weight: normal;
-}
-
-h5 {
-  font-size: $font_size * 0.9;
-  font-weight: normal;
-}
-
-h6 {
-  font-size: $font_size * 0.75;
-  font-weight: lighter;
-}
-
-.nolink {
-  cursor: default;
-  pointer-events: none;
-  text-decoration: none;
-}
-
-.awesome {
-  font-family: FontAwesome, sans-serif;
-}
-
-.hidden {
-  display: none;
-}
+@include common(1, $base_font_size);
+@include max-screen(xl) {
+  @include common(getRatio(xl), getFontSize(xl))
+};
+@include max-screen(lg) {
+  @include common(getRatio(lg), getFontSize(lg))
+};
+@include max-screen(md) {
+  @include common(getRatio(md), getFontSize(md))
+};
+@include max-screen(sm) {
+  @include common(getRatio(sm), getFontSize(sm))
+};
+@include max-screen(xs) {
+  @include common(getRatio(xs), getFontSize(xs))
+};

@@ -1,5 +1,10 @@
+{{ if isset .Site.Params "widgets" }}
 <section>
   <div class="widget-list">
-
+    {{ $root := . }}
+    {{ range $widget := .Site.Params.widgets.order }}
+      {{ partial (printf "%s%s" "widgets/" $widget) $root }}
+    {{ end }}
   </div>
 </section>
+{{ end }}
