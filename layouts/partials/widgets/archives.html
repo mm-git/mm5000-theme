@@ -1,0 +1,23 @@
+<aside>
+  <div class="widget-frame">
+    <header>
+      <h3 class="widget-title" archives>
+        {{ .Site.Data.l10n.widgets.archives }}
+      </h3>
+    </header>
+    <div class="widget-contents">
+      <ul>
+        {{ range (where (where .Site.Pages "IsPage" true) "Section" "blog").GroupByDate "2006-01" }}
+        <li>
+          {{ $split := split .Key "-" }}
+          {{ $year := index $split 0 }}
+          {{ $month := index $split 1 }}
+          {{ $url := printf "%s/%s/" $year $month }}
+          <a href="{{ $url | relURL }}">{{ $year }}年{{ $month }}月</a>
+          <span class="item-number">{{ len .Pages  }}</span>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</aside>

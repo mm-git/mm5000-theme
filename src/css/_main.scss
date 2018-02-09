@@ -221,6 +221,68 @@
       min-width: $widget_width;
       @include drop_shadow_frame;
     }
+
+    .widget-title {
+      padding: 10px * $ratio 15px * $ratio;
+      border-bottom: $base_color_sky 1px dashed;
+
+      &:before {
+        font-family: FontAwesome, sans-serif;
+        color: $base_color_gray;
+      }
+
+      &[recent-articles]:before {
+        content: "\f040"
+      }
+
+      &[categories]:before {
+        content: "\f07c"
+      }
+
+      &[tags]:before {
+        content: "\f02c"
+      }
+
+      &[archives]:before {
+        content: "\f187"
+      }
+
+      &[authors]:before {
+        content: "\f007"
+      }
+    }
+
+    .widget-contents {
+      ul {
+        list-style: none;
+        padding: 15px * $ratio;
+
+        li {
+          margin: 5px 10px * $ratio;
+
+          a {
+            color: $base_color_blue;
+            font-size: $font_size;
+            font-weight: normal;
+
+            &:hover {
+              color: $base_color_blue_light;
+            }
+          }
+
+          .item-number {
+            position:relative;
+            top: -1px;
+            margin-left: 5px;
+            padding: 2px 6px;
+            color: $base_color_white;
+            background: $base_color_white_dark;
+            font-size: $font_size * 0.8;
+            border-radius: $font_size * 0.8;
+          }
+        }
+      }
+    }
   }
 
   .footer {

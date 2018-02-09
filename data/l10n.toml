@@ -3,23 +3,14 @@
     comments = "コメント"
     number = "件"
 
-[search]
-    placeholder = "検索"
-
 [pagination]
     first = "最初の記事"
     previous = "古い記事"
     next = "新しい記事"
     last = "最後の記事"
 
-[profile]
-    follow_button = "Like Us"
-    tags = "Tags"
-    posts = "Posts"
-
 [page_not_found]
-    title = "Error 404 - Page NOT Found"
-    subtitle = "The content you're looking for doesn't seem to exist."
+    title = "エラー 404 - ページがありません"
 
 [social]
     facebook = "Facebookを開く"
@@ -35,22 +26,10 @@
     github = "GitHubを開く"
     RSS = "ブログを購読する"
 
-[widgets.categories]
-    title = "Categories"
 
-[widgets.recent_articles]
-    title = "Recents"
-
-[widgets.tag_cloud]
-    title = "Tag cloud"
-    min_count = 2  # If you have many posts, then tag with just one topic makes the tag cloud cluttered. This variable can help reduce the clutter.
-
-[widgets.mailchimp]
-    title = "Subscribe via Email"
-    subscribe_text = "Enter your email address to subscribe to this blog and receive notifications of new posts by email."
-
-[widgets.tags]
-    title = "Tags"
-
-[authors]
-    Title = "Authors"
+[widgets]
+    recent_articles = "最近の投稿"
+    categories = "カテゴリ"
+    tags = "タグ"
+    archives = "アーカイブ"
+    authors = "投稿者"

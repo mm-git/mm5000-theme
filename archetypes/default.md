@@ -2,8 +2,8 @@
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date = {{ .Date }}
 draft = true
-author = ""
-category = ""
+authors = ""
+categories = ""
 slug = ""
 tags = ["", ""]
 description = ""

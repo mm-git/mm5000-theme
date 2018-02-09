@@ -2826,9 +2826,47 @@ h6 {
   display: block;
   background: #f8f8f8;
   margin: 30px 40px 30px 0;
-  min-width: 20vw;
+  min-width: 22vw;
   box-shadow: 1px 3px 8px rgba(15, 15, 15, 0.4);
   border-radius: 3px; }
+
+.widget-list .widget-title {
+  padding: 10px 15px;
+  border-bottom: #a8d8f0 1px dashed; }
+  .widget-list .widget-title:before {
+    font-family: FontAwesome, sans-serif;
+    color: #808080; }
+  .widget-list .widget-title[recent-articles]:before {
+    content: "\F040"; }
+  .widget-list .widget-title[categories]:before {
+    content: "\F07C"; }
+  .widget-list .widget-title[tags]:before {
+    content: "\F02C"; }
+  .widget-list .widget-title[archives]:before {
+    content: "\F187"; }
+  .widget-list .widget-title[authors]:before {
+    content: "\F007"; }
+
+.widget-list .widget-contents ul {
+  list-style: none;
+  padding: 15px; }
+  .widget-list .widget-contents ul li {
+    margin: 5px 10px; }
+    .widget-list .widget-contents ul li a {
+      color: #487890;
+      font-size: 16px;
+      font-weight: normal; }
+      .widget-list .widget-contents ul li a:hover {
+        color: #568eab; }
+    .widget-list .widget-contents ul li .item-number {
+      position: relative;
+      top: -1px;
+      margin-left: 5px;
+      padding: 2px 6px;
+      color: #f8f8f8;
+      background: #b8b8b8;
+      font-size: 12.8px;
+      border-radius: 12.8px; }
 
 .footer {
   font-size: 12px;
@@ -2986,9 +3024,45 @@ h6 {
     display: block;
     background: #f8f8f8;
     margin: 28.5px 38px 28.5px 0;
-    min-width: 20vw;
+    min-width: 22vw;
     box-shadow: 1px 3px 8px rgba(15, 15, 15, 0.4);
     border-radius: 3px; }
+  .widget-list .widget-title {
+    padding: 9.5px 14.25px;
+    border-bottom: #a8d8f0 1px dashed; }
+    .widget-list .widget-title:before {
+      font-family: FontAwesome, sans-serif;
+      color: #808080; }
+    .widget-list .widget-title[recent-articles]:before {
+      content: "\F040"; }
+    .widget-list .widget-title[categories]:before {
+      content: "\F07C"; }
+    .widget-list .widget-title[tags]:before {
+      content: "\F02C"; }
+    .widget-list .widget-title[archives]:before {
+      content: "\F187"; }
+    .widget-list .widget-title[authors]:before {
+      content: "\F007"; }
+  .widget-list .widget-contents ul {
+    list-style: none;
+    padding: 14.25px; }
+    .widget-list .widget-contents ul li {
+      margin: 5px 9.5px; }
+      .widget-list .widget-contents ul li a {
+        color: #487890;
+        font-size: 16px;
+        font-weight: normal; }
+        .widget-list .widget-contents ul li a:hover {
+          color: #568eab; }
+      .widget-list .widget-contents ul li .item-number {
+        position: relative;
+        top: -1px;
+        margin-left: 5px;
+        padding: 2px 6px;
+        color: #f8f8f8;
+        background: #b8b8b8;
+        font-size: 12.8px;
+        border-radius: 12.8px; }
   .footer {
     font-size: 12px;
     max-width: 85vw;
@@ -3143,9 +3217,45 @@ h6 {
     display: block;
     background: #f8f8f8;
     margin: 26.03645px 34.71526px 26.03645px 0;
-    min-width: 20vw;
+    min-width: 22vw;
     box-shadow: 1px 3px 8px rgba(15, 15, 15, 0.4);
     border-radius: 3px; }
+  .widget-list .widget-title {
+    padding: 8.67882px 13.01822px;
+    border-bottom: #a8d8f0 1px dashed; }
+    .widget-list .widget-title:before {
+      font-family: FontAwesome, sans-serif;
+      color: #808080; }
+    .widget-list .widget-title[recent-articles]:before {
+      content: "\F040"; }
+    .widget-list .widget-title[categories]:before {
+      content: "\F07C"; }
+    .widget-list .widget-title[tags]:before {
+      content: "\F02C"; }
+    .widget-list .widget-title[archives]:before {
+      content: "\F187"; }
+    .widget-list .widget-title[authors]:before {
+      content: "\F007"; }
+  .widget-list .widget-contents ul {
+    list-style: none;
+    padding: 13.01822px; }
+    .widget-list .widget-contents ul li {
+      margin: 5px 8.67882px; }
+      .widget-list .widget-contents ul li a {
+        color: #487890;
+        font-size: 15.0615px;
+        font-weight: normal; }
+        .widget-list .widget-contents ul li a:hover {
+          color: #568eab; }
+      .widget-list .widget-contents ul li .item-number {
+        position: relative;
+        top: -1px;
+        margin-left: 5px;
+        padding: 2px 6px;
+        color: #f8f8f8;
+        background: #b8b8b8;
+        font-size: 12.0492px;
+        border-radius: 12.0492px; }
   .footer {
     font-size: 11.29613px;
     max-width: 85vw;
@@ -3300,9 +3410,45 @@ h6 {
     display: block;
     background: #f8f8f8;
     margin: 23.35763px 31.14351px 23.35763px 0;
-    min-width: 20vw;
+    min-width: 22vw;
     box-shadow: 1px 3px 8px rgba(15, 15, 15, 0.4);
     border-radius: 3px; }
+  .widget-list .widget-title {
+    padding: 7.78588px 11.67882px;
+    border-bottom: #a8d8f0 1px dashed; }
+    .widget-list .widget-title:before {
+      font-family: FontAwesome, sans-serif;
+      color: #808080; }
+    .widget-list .widget-title[recent-articles]:before {
+      content: "\F040"; }
+    .widget-list .widget-title[categories]:before {
+      content: "\F07C"; }
+    .widget-list .widget-title[tags]:before {
+      content: "\F02C"; }
+    .widget-list .widget-title[archives]:before {
+      content: "\F187"; }
+    .widget-list .widget-title[authors]:before {
+      content: "\F007"; }
+  .widget-list .widget-contents ul {
+    list-style: none;
+    padding: 11.67882px; }
+    .widget-list .widget-contents ul li {
+      margin: 5px 7.78588px; }
+      .widget-list .widget-contents ul li a {
+        color: #487890;
+        font-size: 14.041px;
+        font-weight: normal; }
+        .widget-list .widget-contents ul li a:hover {
+          color: #568eab; }
+      .widget-list .widget-contents ul li .item-number {
+        position: relative;
+        top: -1px;
+        margin-left: 5px;
+        padding: 2px 6px;
+        color: #f8f8f8;
+        background: #b8b8b8;
+        font-size: 11.2328px;
+        border-radius: 11.2328px; }
   .footer {
     font-size: 10.53075px;
     max-width: 85vw;
@@ -3468,9 +3614,45 @@ h6 {
     display: block;
     background: #f8f8f8;
     margin: 19.91344px 26.55125px 19.91344px 0;
-    min-width: 20vw;
+    min-width: 22vw;
     box-shadow: 1px 3px 8px rgba(15, 15, 15, 0.4);
     border-radius: 3px; }
+  .widget-list .widget-title {
+    padding: 6.63781px 9.95672px;
+    border-bottom: #a8d8f0 1px dashed; }
+    .widget-list .widget-title:before {
+      font-family: FontAwesome, sans-serif;
+      color: #808080; }
+    .widget-list .widget-title[recent-articles]:before {
+      content: "\F040"; }
+    .widget-list .widget-title[categories]:before {
+      content: "\F07C"; }
+    .widget-list .widget-title[tags]:before {
+      content: "\F02C"; }
+    .widget-list .widget-title[archives]:before {
+      content: "\F187"; }
+    .widget-list .widget-title[authors]:before {
+      content: "\F007"; }
+  .widget-list .widget-contents ul {
+    list-style: none;
+    padding: 9.95672px; }
+    .widget-list .widget-contents ul li {
+      margin: 5px 6.63781px; }
+      .widget-list .widget-contents ul li a {
+        color: #487890;
+        font-size: 12.72893px;
+        font-weight: normal; }
+        .widget-list .widget-contents ul li a:hover {
+          color: #568eab; }
+      .widget-list .widget-contents ul li .item-number {
+        position: relative;
+        top: -1px;
+        margin-left: 5px;
+        padding: 2px 6px;
+        color: #f8f8f8;
+        background: #b8b8b8;
+        font-size: 10.18314px;
+        border-radius: 10.18314px; }
   .footer {
     font-size: 9.5467px;
     max-width: 85vw;
@@ -3636,9 +3818,45 @@ h6 {
     display: block;
     background: #f8f8f8;
     margin: 18px 24px 18px 0;
-    min-width: 20vw;
+    min-width: 22vw;
     box-shadow: 1px 3px 8px rgba(15, 15, 15, 0.4);
     border-radius: 3px; }
+  .widget-list .widget-title {
+    padding: 6px 9px;
+    border-bottom: #a8d8f0 1px dashed; }
+    .widget-list .widget-title:before {
+      font-family: FontAwesome, sans-serif;
+      color: #808080; }
+    .widget-list .widget-title[recent-articles]:before {
+      content: "\F040"; }
+    .widget-list .widget-title[categories]:before {
+      content: "\F07C"; }
+    .widget-list .widget-title[tags]:before {
+      content: "\F02C"; }
+    .widget-list .widget-title[archives]:before {
+      content: "\F187"; }
+    .widget-list .widget-title[authors]:before {
+      content: "\F007"; }
+  .widget-list .widget-contents ul {
+    list-style: none;
+    padding: 9px; }
+    .widget-list .widget-contents ul li {
+      margin: 5px 6px; }
+      .widget-list .widget-contents ul li a {
+        color: #487890;
+        font-size: 12px;
+        font-weight: normal; }
+        .widget-list .widget-contents ul li a:hover {
+          color: #568eab; }
+      .widget-list .widget-contents ul li .item-number {
+        position: relative;
+        top: -1px;
+        margin-left: 5px;
+        padding: 2px 6px;
+        color: #f8f8f8;
+        background: #b8b8b8;
+        font-size: 9.6px;
+        border-radius: 9.6px; }
   .footer {
     font-size: 9px;
     max-width: 85vw;

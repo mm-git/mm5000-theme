@@ -1,0 +1,20 @@
+<aside>
+  <div class="widget-frame">
+    <header>
+      <h3 class="widget-title" tags>
+        {{ .Site.Data.l10n.widgets.tags }}
+      </h3>
+    </header>
+    <div class="widget-contents">
+      <ul>
+        {{ range $name, $items := .Site.Taxonomies.tags }}
+        <li>
+          {{ $url := printf "%s/%s" "tags" ($name | urlize | lower)}}
+          <a href="{{ $url | absURL }}">{{ $name | title }}</a>
+          <span class="item-number">{{ len $items }}</span>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</aside>

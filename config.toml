@@ -44,14 +44,13 @@ paginate = 5
 #
 [params.widgets]
     order = [
-      "search",
+      "recent_articles",
       "categories",
       "tags",
-      "recent_articles",
-#      "tag_cloud",
       "archives",
-      "author",
+      "authors",
     ]
+    recent_articles_number = 10
 
 [params.slider]
     enable = true
@@ -60,4 +59,4 @@ paginate = 5
 [Taxonomies]
     tags = "tags"
     categories = "categories"
-    author = "author"
+    authors = "authors"
