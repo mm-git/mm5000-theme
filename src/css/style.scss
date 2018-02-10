@@ -1,13 +1,12 @@
 @charset "utf-8";
 
 @import "_variable.scss";
-@import "_functions.scss";
-@import "_media.scss";
+@import "_reset.scss";
 
 $fa-font-path: "../../node_modules/font-awesome/fonts";
 @import "../../node_modules/font-awesome/scss/font-awesome.scss";
 
-@import "_reset.scss";
+@import "_mixin.scss";
 @import "_common.scss";
 @import "_main.scss";
 @import "_social_icon.scss";

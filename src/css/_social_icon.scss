@@ -1,3 +1,10 @@
+@mixin icon_size($ratio) {
+  font-size: $social_icon_size * $ratio;
+  width: ($social_icon_size + 8px) * $ratio;
+  height: ($social_icon_size + 8px) * $ratio;
+  line-height: ($social_icon_size + 8px) * $ratio;
+}
+
 $social_list: (
   facebook: (
     content: '\f09a',
@@ -63,19 +70,16 @@ $social_list: (
         display: inline-block;
         font-family: FontAwesome, sans-serif;
         margin: 2px;
-        border-radius: 2px;
-        font-size: $social_icon_size;
+        border-radius: $border_radius;
         color: $base_color_gray;
-        transition: all 0.1s ease-out;
+        transition: all 0.3s ease-out;
         vertical-align: top;
         text-align: center;
         font-style: normal;
         font-weight: normal;
         font-variant: normal;
         text-decoration: inherit;
-        width: $social_icon_size + 8px;
-        height: $social_icon_size + 8px;
-        line-height: $social_icon_size + 8px;
+        @include icon_size(1);
 
         &:hover {
           color: #fff !important;
@@ -94,4 +98,29 @@ $social_list: (
   }
 }
 
+@include max-screen(xl) {
+  .social-icons ul li a {
+    @include icon_size(getRatio(xl));
+  }
+};
+@include max-screen(lg) {
+  .social-icons ul li a {
+    @include icon_size(getRatio(lg));
+  }
+};
+@include max-screen(md) {
+  .social-icons ul li a {
+    @include icon_size(getRatio(md));
+  }
+};
+@include max-screen(sm) {
+  .social-icons ul li a {
+    @include icon_size(getRatio(sm));
+  }
+};
+@include max-screen(xs) {
+  .social-icons ul li a {
+    @include icon_size(getRatio(xs));
+  }
+};
 

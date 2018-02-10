@@ -1,4 +1,92 @@
 @charset "UTF-8";
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -2328,94 +2416,6 @@
   overflow: visible;
   clip: auto; }
 
-/*
-html5doctor.com Reset Stylesheet
-v1.6.1
-Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com
-Twitter: @rich_clark
-*/
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent; }
-
-body {
-  line-height: 1; }
-
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-nav ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
-
-a {
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent; }
-
-/* change colours to suit your needs */
-ins {
-  background-color: #ff9;
-  color: #000;
-  text-decoration: none; }
-
-/* change colours to suit your needs */
-mark {
-  background-color: #ff9;
-  color: #000;
-  font-style: italic;
-  font-weight: bold; }
-
-del {
-  text-decoration: line-through; }
-
-abbr[title], dfn[title] {
-  border-bottom: 1px dotted;
-  cursor: help; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-/* change border colour to suit your needs */
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #cccccc;
-  margin: 1em 0;
-  padding: 0; }
-
-input, select {
-  vertical-align: middle; }
-
 body {
   background: url(../image/background.png);
   color: #0f0f0f;
@@ -2796,7 +2796,7 @@ h6 {
     color: #808080;
     font-size: 14px;
     content: "\8A18\4E8B\3092\30B7\30A7\30A2";
-    line-height: 26px; }
+    line-height: 36px; }
 
 .article-footer {
   background: #f3f3f3;
@@ -2832,7 +2832,7 @@ h6 {
 
 .widget-list .widget-title {
   padding: 10px 15px;
-  border-bottom: #a8d8f0 1px dashed; }
+  border-bottom: #a8d8f0 2px dashed; }
   .widget-list .widget-title:before {
     font-family: FontAwesome, sans-serif;
     color: #808080; }
@@ -2867,6 +2867,24 @@ h6 {
       background: #b8b8b8;
       font-size: 12.8px;
       border-radius: 12.8px; }
+
+.widget-list .widget-contents[tags] ul {
+  display: flex;
+  flex-wrap: wrap; }
+  .widget-list .widget-contents[tags] ul li {
+    border-radius: 3px;
+    border: #a8d8f0 2px solid;
+    padding: 3px 6px;
+    transition: all 0.3s ease-out;
+    margin: 2px 4px; }
+    .widget-list .widget-contents[tags] ul li a {
+      text-decoration: none; }
+      .widget-list .widget-contents[tags] ul li a:before {
+        font-family: FontAwesome, sans-serif;
+        color: #487890;
+        content: "\F02B"; }
+    .widget-list .widget-contents[tags] ul li:hover {
+      border: #487890 2px solid; }
 
 .footer {
   font-size: 12px;
@@ -2996,7 +3014,7 @@ h6 {
       color: #808080;
       font-size: 14px;
       content: "\8A18\4E8B\3092\30B7\30A7\30A2";
-      line-height: 26px; }
+      line-height: 34.2px; }
   .article-footer {
     background: #f3f3f3;
     line-height: 33.25px;
@@ -3029,7 +3047,7 @@ h6 {
     border-radius: 3px; }
   .widget-list .widget-title {
     padding: 9.5px 14.25px;
-    border-bottom: #a8d8f0 1px dashed; }
+    border-bottom: #a8d8f0 2px dashed; }
     .widget-list .widget-title:before {
       font-family: FontAwesome, sans-serif;
       color: #808080; }
@@ -3063,6 +3081,23 @@ h6 {
         background: #b8b8b8;
         font-size: 12.8px;
         border-radius: 12.8px; }
+  .widget-list .widget-contents[tags] ul {
+    display: flex;
+    flex-wrap: wrap; }
+    .widget-list .widget-contents[tags] ul li {
+      border-radius: 3px;
+      border: #a8d8f0 2px solid;
+      padding: 3px 5.7px;
+      transition: all 0.3s ease-out;
+      margin: 2px 3.8px; }
+      .widget-list .widget-contents[tags] ul li a {
+        text-decoration: none; }
+        .widget-list .widget-contents[tags] ul li a:before {
+          font-family: FontAwesome, sans-serif;
+          color: #487890;
+          content: "\F02B"; }
+      .widget-list .widget-contents[tags] ul li:hover {
+        border: #487890 2px solid; }
   .footer {
     font-size: 12px;
     max-width: 85vw;
@@ -3187,9 +3222,9 @@ h6 {
     padding-right: 8.67882px; }
     .share-links ul:before {
       color: #808080;
-      font-size: 14px;
+      font-size: 13.0615px;
       content: "\8A18\4E8B\3092\30B7\30A7\30A2";
-      line-height: 26px; }
+      line-height: 31.24374px; }
   .article-footer {
     background: #f3f3f3;
     line-height: 30.37585px;
@@ -3222,7 +3257,7 @@ h6 {
     border-radius: 3px; }
   .widget-list .widget-title {
     padding: 8.67882px 13.01822px;
-    border-bottom: #a8d8f0 1px dashed; }
+    border-bottom: #a8d8f0 2px dashed; }
     .widget-list .widget-title:before {
       font-family: FontAwesome, sans-serif;
       color: #808080; }
@@ -3256,6 +3291,23 @@ h6 {
         background: #b8b8b8;
         font-size: 12.0492px;
         border-radius: 12.0492px; }
+  .widget-list .widget-contents[tags] ul {
+    display: flex;
+    flex-wrap: wrap; }
+    .widget-list .widget-contents[tags] ul li {
+      border-radius: 3px;
+      border: #a8d8f0 2px solid;
+      padding: 3px 5.20729px;
+      transition: all 0.3s ease-out;
+      margin: 2px 3.47153px; }
+      .widget-list .widget-contents[tags] ul li a {
+        text-decoration: none; }
+        .widget-list .widget-contents[tags] ul li a:before {
+          font-family: FontAwesome, sans-serif;
+          color: #487890;
+          content: "\F02B"; }
+      .widget-list .widget-contents[tags] ul li:hover {
+        border: #487890 2px solid; }
   .footer {
     font-size: 11.29613px;
     max-width: 85vw;
@@ -3380,9 +3432,9 @@ h6 {
     padding-right: 7.78588px; }
     .share-links ul:before {
       color: #808080;
-      font-size: 14px;
+      font-size: 12.041px;
       content: "\8A18\4E8B\3092\30B7\30A7\30A2";
-      line-height: 26px; }
+      line-height: 28.02916px; }
   .article-footer {
     background: #f3f3f3;
     line-height: 27.25057px;
@@ -3415,7 +3467,7 @@ h6 {
     border-radius: 3px; }
   .widget-list .widget-title {
     padding: 7.78588px 11.67882px;
-    border-bottom: #a8d8f0 1px dashed; }
+    border-bottom: #a8d8f0 2px dashed; }
     .widget-list .widget-title:before {
       font-family: FontAwesome, sans-serif;
       color: #808080; }
@@ -3449,6 +3501,23 @@ h6 {
         background: #b8b8b8;
         font-size: 11.2328px;
         border-radius: 11.2328px; }
+  .widget-list .widget-contents[tags] ul {
+    display: flex;
+    flex-wrap: wrap; }
+    .widget-list .widget-contents[tags] ul li {
+      border-radius: 3px;
+      border: #a8d8f0 2px solid;
+      padding: 3px 4.67153px;
+      transition: all 0.3s ease-out;
+      margin: 2px 3.11435px; }
+      .widget-list .widget-contents[tags] ul li a {
+        text-decoration: none; }
+        .widget-list .widget-contents[tags] ul li a:before {
+          font-family: FontAwesome, sans-serif;
+          color: #487890;
+          content: "\F02B"; }
+      .widget-list .widget-contents[tags] ul li:hover {
+        border: #487890 2px solid; }
   .footer {
     font-size: 10.53075px;
     max-width: 85vw;
@@ -3584,9 +3653,9 @@ h6 {
     padding-right: 6.63781px; }
     .share-links ul:before {
       color: #808080;
-      font-size: 14px;
+      font-size: 10.72893px;
       content: "\8A18\4E8B\3092\30B7\30A7\30A2";
-      line-height: 26px; }
+      line-height: 23.89613px; }
   .article-footer {
     background: #f3f3f3;
     line-height: 23.23235px;
@@ -3619,7 +3688,7 @@ h6 {
     border-radius: 3px; }
   .widget-list .widget-title {
     padding: 6.63781px 9.95672px;
-    border-bottom: #a8d8f0 1px dashed; }
+    border-bottom: #a8d8f0 2px dashed; }
     .widget-list .widget-title:before {
       font-family: FontAwesome, sans-serif;
       color: #808080; }
@@ -3653,6 +3722,23 @@ h6 {
         background: #b8b8b8;
         font-size: 10.18314px;
         border-radius: 10.18314px; }
+  .widget-list .widget-contents[tags] ul {
+    display: flex;
+    flex-wrap: wrap; }
+    .widget-list .widget-contents[tags] ul li {
+      border-radius: 3px;
+      border: #a8d8f0 2px solid;
+      padding: 3px 3.98269px;
+      transition: all 0.3s ease-out;
+      margin: 2px 2.65513px; }
+      .widget-list .widget-contents[tags] ul li a {
+        text-decoration: none; }
+        .widget-list .widget-contents[tags] ul li a:before {
+          font-family: FontAwesome, sans-serif;
+          color: #487890;
+          content: "\F02B"; }
+      .widget-list .widget-contents[tags] ul li:hover {
+        border: #487890 2px solid; }
   .footer {
     font-size: 9.5467px;
     max-width: 85vw;
@@ -3788,9 +3874,9 @@ h6 {
     padding-right: 6px; }
     .share-links ul:before {
       color: #808080;
-      font-size: 14px;
+      font-size: 10px;
       content: "\8A18\4E8B\3092\30B7\30A7\30A2";
-      line-height: 26px; }
+      line-height: 21.6px; }
   .article-footer {
     background: #f3f3f3;
     line-height: 21px;
@@ -3823,7 +3909,7 @@ h6 {
     border-radius: 3px; }
   .widget-list .widget-title {
     padding: 6px 9px;
-    border-bottom: #a8d8f0 1px dashed; }
+    border-bottom: #a8d8f0 2px dashed; }
     .widget-list .widget-title:before {
       font-family: FontAwesome, sans-serif;
       color: #808080; }
@@ -3857,6 +3943,23 @@ h6 {
         background: #b8b8b8;
         font-size: 9.6px;
         border-radius: 9.6px; }
+  .widget-list .widget-contents[tags] ul {
+    display: flex;
+    flex-wrap: wrap; }
+    .widget-list .widget-contents[tags] ul li {
+      border-radius: 3px;
+      border: #a8d8f0 2px solid;
+      padding: 3px 3.6px;
+      transition: all 0.3s ease-out;
+      margin: 2px 2.4px; }
+      .widget-list .widget-contents[tags] ul li a {
+        text-decoration: none; }
+        .widget-list .widget-contents[tags] ul li a:before {
+          font-family: FontAwesome, sans-serif;
+          color: #487890;
+          content: "\F02B"; }
+      .widget-list .widget-contents[tags] ul li:hover {
+        border: #487890 2px solid; }
   .footer {
     font-size: 9px;
     max-width: 85vw;
@@ -3895,19 +3998,19 @@ h6 {
       display: inline-block;
       font-family: FontAwesome, sans-serif;
       margin: 2px;
-      border-radius: 2px;
-      font-size: 16px;
+      border-radius: 3px;
       color: #808080;
-      transition: all 0.1s ease-out;
+      transition: all 0.3s ease-out;
       vertical-align: top;
       text-align: center;
       font-style: normal;
       font-weight: normal;
       font-variant: normal;
       text-decoration: inherit;
-      width: 24px;
-      height: 24px;
-      line-height: 24px; }
+      font-size: 26px;
+      width: 34px;
+      height: 34px;
+      line-height: 34px; }
       .social-icons ul li a:hover {
         color: #fff !important; }
   .social-icons ul li.facebook a:before {
@@ -3958,3 +4061,38 @@ h6 {
     content: "\F09B"; }
   .social-icons ul li.github a:hover {
     background: #151013; }
+
+@media screen and (max-width: 1198px) {
+  .social-icons ul li a {
+    font-size: 24.7px;
+    width: 32.3px;
+    height: 32.3px;
+    line-height: 32.3px; } }
+
+@media screen and (max-width: 992px) {
+  .social-icons ul li a {
+    font-size: 22.56492px;
+    width: 29.50797px;
+    height: 29.50797px;
+    line-height: 29.50797px; } }
+
+@media screen and (max-width: 768px) {
+  .social-icons ul li a {
+    font-size: 20.24328px;
+    width: 26.47198px;
+    height: 26.47198px;
+    line-height: 26.47198px; } }
+
+@media screen and (max-width: 480px) {
+  .social-icons ul li a {
+    font-size: 17.25831px;
+    width: 22.56856px;
+    height: 22.56856px;
+    line-height: 22.56856px; } }
+
+@media screen and (max-width: 320px) {
+  .social-icons ul li a {
+    font-size: 15.6px;
+    width: 20.4px;
+    height: 20.4px;
+    line-height: 20.4px; } }
