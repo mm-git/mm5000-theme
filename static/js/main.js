@@ -92,14 +92,9 @@ module.exports = g;
 
 /***/ }),
 /* 1 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__slider_slider_js__ = __webpack_require__(2);
-
-
-const slider = __WEBPACK_IMPORTED_MODULE_0__slider_slider_js__["a" /* default */];
+__webpack_require__(2);
 
 
 
@@ -108,33 +103,42 @@ const slider = __WEBPACK_IMPORTED_MODULE_0__slider_slider_js__["a" /* default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
 
 
-/* harmony default export */ __webpack_exports__["a"] = (new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
-  el: "#slider",
-  name: "slider",
-  data() {
-    return {
-      currentPage: 0
-    }
-  },
-  methods: {
-    changePage: function(page) {
-      let slideList = document.getElementsByClassName("slide");
-      console.log(this.currentPage);
-      slideList[this.currentPage].removeAttribute("active");
-      slideList[page].setAttribute("active", "");
+var Slider;
 
-      let dotList = document.getElementsByClassName("pager-dot");
-      dotList[this.currentPage].removeAttribute("active");
-      dotList[page].setAttribute("active", "");
+let elm = document.getElementById("slider");
+if (elm) {
+  Slider = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
+    el: "#slider",
+    name: "slider",
+    data() {
+      return {
+        currentPage: 0
+      }
+    },
+    methods: {
+      changePage: function(page) {
+        let slideList = document.getElementsByClassName("slide");
+        console.log(this.currentPage);
+        slideList[this.currentPage].removeAttribute("active");
+        slideList[page].setAttribute("active", "");
 
-      this.currentPage = page;
+        let dotList = document.getElementsByClassName("pager-dot");
+        dotList[this.currentPage].removeAttribute("active");
+        dotList[page].setAttribute("active", "");
+
+        this.currentPage = page;
+      }
     }
-  }
-}));
+  });
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Slider);
+
 
 
 /***/ }),

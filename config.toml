@@ -60,6 +60,7 @@ paginate = 5
     tag = "tags"
     category = "categories"
     author = "authors"
+    archive = "archives"
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:slug"

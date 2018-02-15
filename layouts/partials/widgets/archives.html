@@ -12,7 +12,7 @@
           {{ $split := split .Key "-" }}
           {{ $year := index $split 0 }}
           {{ $month := index $split 1 }}
-          {{ $url := printf "%s/%s/" $year $month }}
+          {{ $url := printf "archives/%s/%s/" $year $month }}
           <a href="{{ $url | relURL }}">{{ $year }}年{{ $month }}月</a>
           <span class="item-number">{{ len .Pages  }}</span>
         </li>

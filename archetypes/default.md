@@ -2,10 +2,11 @@
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date = {{ .Date }}
 draft = true
-authors = ""
-categories = ""
 slug = ""
-tags = ["", ""]
 description = ""
 banner = "image/banners/"
+authors = ""
+categories = ""
+tags = ["", ""]
+archives = {{ dateFormat .Date "2016/01" }}
 +++

@@ -8,21 +8,41 @@
         {{ partial "nav" . }}
       </header>
       <div class="contents">
-        <section id="main">
-          <div class="tags_list">
-          <div class="tags_title"><span>{{ .Title }}</span></div>
+        <section>
+          <div class="article-list">
+            <article class="summary-post">
+              <figure>
+                <div class="dummy-image-frame">
+                  <img src="/image/opaque.png" class="dummy-image" alt="{{ .Title }}" title="{{ .Title }}">
+                </div>
+              </figure>
+              <header>
+                <h2 class="summary-title fa-item fa-tag">{{ .Site.Data.l10n.widgets.tags }}: {{ .Title }}</h2>
+              </header>
+              <div class="taxonomy-list">
+                <ul>
+                  {{ range .Data.Pages }}
+                  <li>
+                    {{ .Date.Format "2006-01-02" }}
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                  </li>
+                  {{ end }}
+                </ul>
+              </div>
+
+              <footer>
+                <div class="article-footer flex-row">
+                  <div class="fa-item fa-tag">
+                    <a href="{{ .Site.BaseURL }}/tags">
+                      {{ .Site.Data.l10n.widgets.tags }}{{ .Site.Data.l10n.widgets.list }}
+                    </a>
+                  </div>
+                </div>
+              </footer>
+            </article>
           </div>
-          <ul id="list">
-            {{ range .Data.Pages }}
-            <li>
-              {{ .Date.Format "2006-01-02" }}
-              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            </li>
-            {{ end }}
-          </ul>
-          <hr>
-          <a href="{{ .Site.BaseURL }}/tags">Tags</a>
         </section>
+        {{ partial "widget" . }}
       </div>
     </div>
     <footer>

@@ -171,12 +171,48 @@
         }
       }
 
+      .dummy-image-frame {
+        height: 1px;
+        position: relative;
+        overflow: hidden;
+
+        .dummy-image {
+          width: 100%;
+        }
+      }
+
       .summary-title {
         padding: 10px * $ratio 15px * $ratio;
+
+        &:before {
+          color: $base_color_gray;
+          margin-right: 5px;
+        }
       }
 
       .summary-description {
         padding: 15px * $ratio;
+      }
+
+      .taxonomy-list {
+        ul {
+          list-style: none;
+          padding: 15px * $ratio;
+
+          li {
+            margin: 5px 10px * $ratio;
+
+            a {
+              color: $base_color_blue;
+              font-size: $font_size;
+              font-weight: normal;
+
+              &:hover {
+                color: $base_color_blue_light;
+              }
+            }
+          }
+        }
       }
 
       .pagination {

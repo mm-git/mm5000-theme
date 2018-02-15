@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-{{ partial "head" . }}
-<body>
-<div class="main_container">
-  <header>
-    {{ partial "header" . }}
-    {{ partial "nav" . }}
-  </header>
-</div>
-<footer>
-  {{ partial "footer" . }}
-</footer>
-{{ partial "googleAnalytics" . }}
-</body>
+  {{ partial "head" . }}
+  <body>
+    <div class="main_container">
+      <header>
+        {{ partial "header" . }}
+        {{ partial "nav" . }}
+      </header>
+    </div>
+    <footer>
+      {{ partial "footer" . }}
+    </footer>
+    <script src="{{ .Site.BaseURL }}/js/main.min.js"></script>
+    {{ partial "googleAnalytics" . }}
+  </body>
 </html>
 

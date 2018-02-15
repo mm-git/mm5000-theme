@@ -1,34 +1,54 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-{{ partial "head" . }}
-<body>
-<div class="main_container">
-  <header>
-    {{ partial "header" . }}
-    {{ partial "nav" . }}
-  </header>
-  <div class="contents">
-    <section id="main">
-      <div class="tags_list">
-        <div class="tags_title"><span>{{ .Title }}</span></div>
+  {{ partial "head" . }}
+  <body>
+    <div class="main_container">
+      <header>
+        {{ partial "header" . }}
+        {{ partial "nav" . }}
+      </header>
+      <div class="contents">
+        <section>
+          <div class="article-list">
+            <article class="summary-post">
+              <figure>
+                <div class="dummy-image-frame">
+                  <img src="/image/opaque.png" class="dummy-image" alt="{{ .Title }}" title="{{ .Title }}">
+                </div>
+              </figure>
+              <header>
+                <h2 class="summary-title fa-item fa-user">{{ .Title }}</h2>
+              </header>
+              <div class="taxonomy-list">
+                <ul>
+                  {{ range .Data.Pages }}
+                  <li>
+                    {{ .Date.Format "2006-01-02" }}
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                  </li>
+                  {{ end }}
+                </ul>
+              </div>
+
+              <footer>
+                <div class="article-footer flex-row">
+                  <div class="fa-item fa-user">
+                    <a href="{{ .Site.BaseURL }}/authors">
+                      {{ .Site.Data.l10n.widgets.authors }}{{ .Site.Data.l10n.widgets.list }}
+                    </a>
+                  </div>
+                </div>
+              </footer>
+            </article>
+          </div>
+        </section>
+        {{ partial "widget" . }}
       </div>
-      <ul id="list">
-        {{ range .Data.Pages }}
-        <li>
-          {{ .Date.Format "2006-01-02" }}
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </li>
-        {{ end }}
-      </ul>
-      <hr>
-      <a href="{{ .Site.BaseURL }}/tags">Tags</a>
-    </section>
-  </div>
-</div>
-<footer>
-  {{ partial "footer" . }}
-</footer>
-<script src="{{ .Site.BaseURL }}/js/main.min.js"></script>
-{{ partial "googleAnalytics" . }}
-</body>
+    </div>
+    <footer>
+      {{ partial "footer" . }}
+    </footer>
+    <script src="{{ .Site.BaseURL }}/js/main.min.js"></script>
+    {{ partial "googleAnalytics" . }}
+  </body>
 </html>
