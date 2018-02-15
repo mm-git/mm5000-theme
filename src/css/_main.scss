@@ -1,7 +1,7 @@
 @mixin main($ratio, $font_size) {
   .main_container {
     background: $base_color_white;
-    max-width: $content-width;
+    max-width: $content_width;
     margin: 20px * $ratio auto;
     @include drop_shadow_frame;
   }
@@ -59,11 +59,12 @@
     }
   }
 
-  .slider {
+  .slider-contents {
     border-bottom: $base_color_blue 3px solid;
 
     .slide {
       position: relative;
+      background: $base_color_water;
       height: $slider_height * $ratio;
       overflow: hidden;
 
@@ -107,10 +108,55 @@
         right: 30px * $ratio;
       }
 
+      &[active] {
+        @include fade_in_item();
+      }
+
+      &:not([active]) {
+        display: none;
+      }
+    }
+
+  }
+
+  .slider-pager {
+    position: relative;
+    top: -50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .pager-dot {
+      margin: 10px;
+      width: 20px;
+      height: 20px;
+      border-radius: 20px;
+      box-shadow: 2px 2px 10px rgba($base_color_black_light, 0.7);
+      cursor: pointer;
+      @include transition_item();
+
+      &[active] {
+        background: $base_color_blue;
+
+        &:hover {
+          background: $base_color_blue_light;
+          box-shadow: 0 0 4px rgba($base_color_white, 0.7);
+        }
+      }
+
+      &:not([active]) {
+        background: $base_color_gray;
+
+        &:hover {
+          background: $base_color_gray_light;
+          box-shadow: 0 0 4px rgba($base_color_white, 0.7);
+        }
+      }
     }
   }
 
   .contents {
+    clear: both;
     display: flex;
     flex-direction: row;
   }
@@ -291,7 +337,7 @@
 
         li {
           border-radius: $border_radius;
-          border: $base_color_sky 2px solid;
+          border: $base_color_water_light 1px solid;
           padding: 3px 6px * $ratio;
           transition: all 0.3s ease-out;
           margin: 2px 4px * $ratio;
@@ -317,7 +363,7 @@
 
   .footer {
     font-size: $font_size * 0.75;
-    max-width: $content-width;
+    max-width: $content_width;
     height: 20px * $ratio;
     margin: 0 auto;
     text-align: right;

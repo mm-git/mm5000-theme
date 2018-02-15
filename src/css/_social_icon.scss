@@ -72,7 +72,6 @@ $social_list: (
         margin: 2px;
         border-radius: $border_radius;
         color: $base_color_gray;
-        transition: all 0.3s ease-out;
         vertical-align: top;
         text-align: center;
         font-style: normal;
@@ -80,6 +79,7 @@ $social_list: (
         font-variant: normal;
         text-decoration: inherit;
         @include icon_size(1);
+        @include transition_item();
 
         &:hover {
           color: #fff !important;

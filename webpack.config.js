@@ -1,6 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = [
   {
@@ -59,5 +60,53 @@ module.exports = [
     plugins: [
       new ExtractTextPlugin('[name].min.css')
     ]
+  },
+  {
+    entry: {
+      main: './src/js/main.js'
+    },
+    output: {
+      path: path.join(__dirname, './static/js'),
+      filename: '[name].js'
+    },
+    module: {
+      loaders: [
+        {
+          test: /\.vue$/,
+          loader: 'vue-loader'
+        },
+      ]
+    },
+    resolve: {
+      alias: {
+        vue: 'vue/dist/vue.js'
+      }
+    },
+  },
+  {
+    devtool: 'source-map',
+    entry: {
+      main: './src/js/main.js',
+    },
+    output: {
+      path: path.join(__dirname, './static/js'),
+      filename: '[name].min.js'
+    },
+    module: {
+      loaders: [
+        {
+          test: /\.vue$/,
+          loader: 'vue-loader'
+        },
+      ]
+    },
+    resolve: {
+      alias: {
+        vue: 'vue/dist/vue.js'
+      }
+    },
+    plugins: [
+      new UglifyJsPlugin()
+    ],
   }
 ];
