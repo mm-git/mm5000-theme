@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{ partial "head" . }}
+<body>
+<div class="main_container">
+  <header>
+    {{ partial "header" . }}
+    {{ partial "nav" . }}
+  </header>
+  <div class="contents">
+    <section id="main">
+      <div class="tags_list">
+        <div class="tags_title"><span>{{ .Title }}</span></div>
+      </div>
+      <ul id="list">
+        {{ range .Data.Pages }}
+        <li>
+          {{ .Date.Format "2006-01-02" }}
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+      </ul>
+      <hr>
+      <a href="{{ .Site.BaseURL }}/tags">Tags</a>
+    </section>
+  </div>
+</div>
+<footer>
+  {{ partial "footer" . }}
+</footer>
+<script src="{{ .Site.BaseURL }}/js/main.min.js"></script>
+{{ partial "googleAnalytics" . }}
+</body>
+</html>

@@ -5,6 +5,7 @@
 
 $fa-font-path: "../../node_modules/font-awesome/fonts";
 @import "../../node_modules/font-awesome/scss/font-awesome.scss";
+@import "_icons_after.scss";
 
 @import "_mixin.scss";
 @import "_common.scss";

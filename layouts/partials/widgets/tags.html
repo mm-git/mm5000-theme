@@ -1,7 +1,7 @@
 <aside>
   <div class="widget-frame">
     <header>
-      <h3 class="widget-title" tags>
+      <h3 class="fa-item fa-tags widget-title" tags>
         {{ .Site.Data.l10n.widgets.tags }}
       </h3>
     </header>
@@ -10,7 +10,7 @@
         {{ range $name, $items := .Site.Taxonomies.tags }}
         <li>
           {{ $url := printf "%s/%s" "tags" ($name | urlize | lower)}}
-          <a href="{{ $url | absURL }}">
+          <a class="fa-item fa-tag" href="{{ $url | absURL }}">
             {{ $name | title }}
             <span class="item-number">{{ len $items }}</span>
           </a>

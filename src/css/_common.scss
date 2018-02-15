@@ -53,14 +53,29 @@
     cursor: default;
     pointer-events: none;
     text-decoration: none;
+    color: $base_color_gray;
   }
 
-  .awesome {
-    font-family: FontAwesome, sans-serif;
+  .fa-item {
+    &:before, &:after {
+      font-family: FontAwesome, sans-serif;
+    }
   }
 
   .hidden {
     display: none;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
 

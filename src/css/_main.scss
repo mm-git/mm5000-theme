@@ -37,24 +37,18 @@
     border-top: $base_color_blue_dark 1px solid;
     border-bottom: $base_color_blue_dark 1px solid;
 
-    ul {
-      display: flex;
-      flex-direction: row;
+    .navigation-menu{
+      text-decoration: none;
+      display: block;
+      font-size: ($font_size - 2px);
+      height: ($font_size - 2px);
+      line-height: ($font_size - 2px);
+      padding: 12px * $ratio 10px * $ratio;
+      color: $base_color_white;
+      @include transition_item();
 
-      li {
-        a {
-          text-decoration: none;
-          display: block;
-          font-size: ($font_size - 2px);
-          height: ($font_size - 2px);
-          line-height: ($font_size - 2px);
-          padding: 12px * $ratio 10px * $ratio;
-          color: $base_color_white;
-
-          &:hover {
-            background: $base_color_blue_dark;
-          }
-        }
+      &:hover {
+        background: $base_color_blue_dark;
       }
     }
   }
@@ -121,16 +115,14 @@
 
   .slider-pager {
     position: relative;
-    top: -50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    top: -10px * $ratio;
+    margin-top: -($slider_pager_size + 20px) * $ratio;
 
     .pager-dot {
-      margin: 10px;
-      width: 20px;
-      height: 20px;
-      border-radius: 20px;
+      margin: 10px * $ratio 15px * $ratio;
+      width: $slider_pager_size * $ratio;
+      height: $slider_pager_size * $ratio;
+      border-radius: $slider_pager_size * $ratio;
       box-shadow: 2px 2px 10px rgba($base_color_black_light, 0.7);
       cursor: pointer;
       @include transition_item();
@@ -194,20 +186,8 @@
         justify-content: space-between;
         font-size: $font_size * 0.95;
 
-        > .pagination-arrow {
-          > .pagination-arrow-left:before {
-            font-family: FontAwesome, sans-serif;
-            content: '\f190';
-          }
-
-          .pagination-arrow-right:after {
-            font-family: FontAwesome, sans-serif;
-            content: '\f18e';
-          }
-
-          .disable-arrow {
-            color: $base_color_gray;
-          }
+        .disable-arrow {
+          color: $base_color_gray;
         }
       }
     }
@@ -228,33 +208,15 @@
     background: darken($base_color_white, 2%);
     line-height: $summary_footer_height * $ratio;
     font-size: $font_size * 0.85;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 
     div {
       padding: 0 15px * $ratio;
       min-width: 100px;
     }
 
-    .post-date:before {
-      font-family: FontAwesome, sans-serif;
-      content: "\f040"
-    }
-
-    .post-category:before {
-      font-family: FontAwesome, sans-serif;
-      content: "\f07c"
-    }
-
     .post-author {
       margin-left: auto;
       text-align: right;
-
-      &:before {
-        font-family: FontAwesome, sans-serif;
-        content: "\f007"
-      }
     }
   }
 
@@ -273,28 +235,7 @@
       border-bottom: $base_color_sky 2px dashed;
 
       &:before {
-        font-family: FontAwesome, sans-serif;
         color: $base_color_gray;
-      }
-
-      &[recent-articles]:before {
-        content: "\f040"
-      }
-
-      &[categories]:before {
-        content: "\f07c"
-      }
-
-      &[tags]:before {
-        content: "\f02c"
-      }
-
-      &[archives]:before {
-        content: "\f187"
-      }
-
-      &[authors]:before {
-        content: "\f007"
       }
     }
 
@@ -337,23 +278,21 @@
 
         li {
           border-radius: $border_radius;
-          border: $base_color_water_light 1px solid;
+          border: $base_color_sky 1px solid;
           padding: 3px 6px * $ratio;
-          transition: all 0.3s ease-out;
           margin: 2px 4px * $ratio;
+          @include transition_item();
 
           a {
             text-decoration: none;
 
             &:before {
-              font-family: FontAwesome, sans-serif;
               color: $base_color_blue;
-              content: "\f02b"
             }
           }
 
           &:hover {
-            border: $base_color_blue 2px solid;
+            border: $base_color_blue 1px solid;
           }
 
         }

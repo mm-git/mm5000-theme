@@ -1,14 +1,14 @@
 <footer>
-  <div class="article-footer">
-    <div class="post-date">
+  <div class="article-footer flex-row">
+    <div class="fa-item fa-pencil">
       {{ .Date.Format .Site.Params.Date_format }}
     </div>
-    <div class="post-category">
+    <div class="fa-item fa-folder-open">
       <a href="category/{{ .Params.categories }}" title="{{ .Params.categories }}">
         {{ .Params.categories  }}
       </a>
     </div>
-    <div class="post-author">
+    <div class="fa-item fa-user post-author">
       {{ .Params.authors  }}
     </div>
   </div>

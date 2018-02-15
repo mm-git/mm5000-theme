@@ -25,7 +25,7 @@
     {{ end }}
     {{ end }}
     </div>
-    <div class="slider-pager">
+    <div class="slider-pager flex-row-center">
     {{ range $index, $page := first .Site.Params.slider.num_features (where .Site.Pages.ByDate "Type" "group") }}
     {{ if and (isset .Params "banner") (not (eq .Params.banner "")) }}
       <div

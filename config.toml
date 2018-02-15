@@ -19,12 +19,12 @@ paginate = 5
 
 [[menu.main]]
     name  = "アメリカ横断"
-    url   = "/across_america/"
+    url   = "/group/across_america_top/"
     weight = 10
 
 [[menu.main]]
-    name  = "その他"
-    url   = "/etc/"
+    name  = "SR600"
+    url   = "/group/sr600_top/"
     weight = 20
 
 [social]
@@ -57,6 +57,10 @@ paginate = 5
     num_features = 6
 
 [Taxonomies]
-    tags = "tags"
-    categories = "categories"
-    authors = "authors"
+    tag = "tags"
+    category = "categories"
+    author = "authors"
+
+[permalinks]
+    blog = "/blog/:year/:month/:day/:slug"
+    group = "/group/:slug"

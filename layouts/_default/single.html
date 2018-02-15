@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{ partial "head" . }}
+<body>
+<div class="main_container">
+  <header>
+    {{ partial "header" . }}
+    {{ partial "nav" . }}
+  </header>
+  <div class="contents">
+    <div class="article-list">
+      <article class="summary-post">
+        <figure>
+          <div class="summary-image-frame">
+            <img src="{{ .Params.banner | relURL }}" class="summary-image" alt="{{ .Title }}" title="{{ .Title }}">
+          </div>
+        </figure>
+        <header>
+          <h2 class="summary-title">
+            {{ .Title }} {{ if .Draft }}:: DRAFT{{ end }}
+          </h2>
+        </header>
+        <div class="summary-description">
+          {{ .Content }}
+        </div>
+        {{ partial "article_share" . }}
+        {{ partial "article_footer" . }}
+      </article>
+
+      <article class="summary-post">
+        <div class="pagination">
+          <div>
+            {{ with .PrevInSection }}
+            <a class="fa-item fa-arrow-circle-left" href="{{ .Permalink }}">
+              {{ .Title }}
+            </a>
+            {{ end }}
+          </div>
+          <div>
+            {{ with .NextInSection }}
+            <a class="fa-item fa-after-arrow-circle-right" href="{{ .Permalink }}">
+              {{ .Title }}
+            </a>
+            {{ end }}
+          </div>
+        </div>
+      </article>
+
+    </div>
+    {{ partial "widget" . }}
+  </div>
+</div>
+<footer>
+  {{ partial "footer" . }}
+</footer>
+{{ partial "googleAnalytics" . }}
+</body>
+</html>
+

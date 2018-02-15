@@ -7,52 +7,52 @@
 
     <article class="summary-post">
       <div class="pagination">
-        <div class="pagination-arrow">
+        <div>
           {{ if eq $paginator.PageNumber 1 }}
-            <span class="pagination-arrow-left disable-arrow">
+            <span class="fa-item fa-arrow-circle-left disable-arrow">
               {{ .Site.Data.l10n.pagination.first }}
             </span>
           {{ else}}
-            <a class="pagination-arrow-left" href="{{ $paginator.First.URL }}">
+            <a class="fa-item fa-arrow-circle-left" href="{{ $paginator.First.URL }}">
               {{ .Site.Data.l10n.pagination.first }}
             </a>
           {{ end }}
         </div>
-        <div class="pagination-arrow">
+        <div>
           {{ if $paginator.HasPrev }}
-            <a class="pagination-arrow-left" href="{{ $paginator.Prev.URL }}">
+            <a class="fa-item fa-arrow-circle-left" href="{{ $paginator.Prev.URL }}">
               {{ .Site.Data.l10n.pagination.previous }}
             </a>
           {{ else}}
-            <span class="pagination-arrow-left disable-arrow">
+            <span class="fa-item fa-arrow-circle-left disable-arrow">
               {{ .Site.Data.l10n.pagination.previous }}
             </span>
           {{ end }}
         </div>
-        <div class="pagination-page-number">
+        <div>
           {{ $startNum := (add (mul (sub $paginator.PageNumber 1) $paginator.PageSize) 1) }}
           {{ $endNum := (sub (add $startNum  $paginator.NumberOfElements) 1)}}
 
           {{ $startNum }}-{{ $endNum }}({{ $paginator.TotalNumberOfElements }} {{ .Site.Data.l10n.articles.number }})
         </div>
-        <div class="pagination-arrow">
+        <div>
           {{ if $paginator.HasNext }}
-            <a class="pagination-arrow-right" href="{{ $paginator.Next.URL }}">
+            <a class="fa-item fa-after-arrow-circle-right" href="{{ $paginator.Next.URL }}">
               {{ .Site.Data.l10n.pagination.next }}
             </a>
           {{ else }}
-            <span class="pagination-arrow-right disable-arrow">
+            <span class="fa-item fa-after-arrow-circle-right disable-arrow">
               {{ .Site.Data.l10n.pagination.next }}
             </span>
           {{ end }}
         </div>
-        <div class="pagination-arrow">
+        <div>
           {{ if eq $paginator.PageNumber $paginator.TotalPages }}
-            <span class="pagination-arrow-right disable-arrow">
+            <span class="fa-item fa-after-arrow-circle-right disable-arrow">
               {{ .Site.Data.l10n.pagination.last }}
             </span>
           {{ else }}
-            <a class="pagination-arrow-right" href="{{ $paginator.Last.URL }}">
+            <a class="fa-item fa-after-arrow-circle-right" href="{{ $paginator.Last.URL }}">
               {{ .Site.Data.l10n.pagination.last }}
             </a>
           {{ end }}
