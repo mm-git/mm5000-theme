@@ -38,6 +38,12 @@ $xs-font-size: $base_font_size - 4px;
   border-radius: $border_radius;
 }
 
+@mixin picture_frame {
+  box-sizing: border-box;
+  border: $base_color_white 6px solid;
+  box-shadow: 2px 2px 5px rgba($base_color_black, 0.6);
+}
+
 @mixin transition_item {
   transition: all $transition_time ease-out;
 }

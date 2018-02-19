@@ -16,7 +16,7 @@ module.exports = [
       loaders: [
         {
           test: /\.scss$/,
-          loader: ExtractTextPlugin.extract('css-loader?sourceMap=false!sass-loader')
+          loader: ExtractTextPlugin.extract('font-family-unescape-loader!css-loader?sourceMap=false!sass-loader')
         },
         {
           test: /\.(woff|woff2|eot|ttf|svg)$/,
@@ -45,7 +45,7 @@ module.exports = [
       loaders: [
         {
           test: /\.scss$/,
-          loader: ExtractTextPlugin.extract('css-loader?minimize!sass-loader')
+          loader: ExtractTextPlugin.extract('font-family-unescape-loader!css-loader?minimize!sass-loader')
         },
         {
           test: /\.(woff|woff2|eot|ttf|svg)$/,

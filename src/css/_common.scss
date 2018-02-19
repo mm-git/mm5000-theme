@@ -3,7 +3,7 @@
     background: url('../image/background.png');
     color: $base_color_black;
     font-size: $font_size;
-    font-family: 'メイリオ', 'Meiryo', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ ゴシック', 'Osaka', sans-serif;
+    font-family: メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, ＭＳ ゴシック, Osaka, sans-serif;
     margin: 0;
     border-top: $base_color_blue 3px solid;
   }
@@ -40,12 +40,12 @@
   }
 
   h5 {
-    font-size: $font_size * 0.9;
+    font-size: $font_size * 0.8;
     font-weight: normal;
   }
 
   h6 {
-    font-size: $font_size * 0.75;
+    font-size: $font_size * 0.65;
     font-weight: lighter;
   }
 

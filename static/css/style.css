@@ -4564,7 +4564,7 @@ body {
   background: url(../image/background.png);
   color: #0f0f0f;
   font-size: 16px;
-  font-family: '\30E1\30A4\30EA\30AA', 'Meiryo', '\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3', 'Hiragino Kaku Gothic Pro', '\FF2D\FF33   \30B4\30B7\30C3\30AF', 'Osaka', sans-serif;
+  font-family: メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, ＭＳ ゴシック, Osaka, sans-serif;
   margin: 0;
   border-top: #487890 3px solid; }
 
@@ -4593,11 +4593,11 @@ h4 {
   font-weight: normal; }
 
 h5 {
-  font-size: 14.4px;
+  font-size: 12.8px;
   font-weight: normal; }
 
 h6 {
-  font-size: 12px;
+  font-size: 10.4px;
   font-weight: lighter; }
 
 .nolink {
@@ -4628,7 +4628,7 @@ h6 {
     background: url(../image/background.png);
     color: #0f0f0f;
     font-size: 16px;
-    font-family: '\30E1\30A4\30EA\30AA', 'Meiryo', '\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3', 'Hiragino Kaku Gothic Pro', '\FF2D\FF33   \30B4\30B7\30C3\30AF', 'Osaka', sans-serif;
+    font-family: メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, ＭＳ ゴシック, Osaka, sans-serif;
     margin: 0;
     border-top: #487890 3px solid; }
   a {
@@ -4651,10 +4651,10 @@ h6 {
     font-size: 16px;
     font-weight: normal; }
   h5 {
-    font-size: 14.4px;
+    font-size: 12.8px;
     font-weight: normal; }
   h6 {
-    font-size: 12px;
+    font-size: 10.4px;
     font-weight: lighter; }
   .nolink {
     cursor: default;
@@ -4680,7 +4680,7 @@ h6 {
     background: url(../image/background.png);
     color: #0f0f0f;
     font-size: 15.0615px;
-    font-family: '\30E1\30A4\30EA\30AA', 'Meiryo', '\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3', 'Hiragino Kaku Gothic Pro', '\FF2D\FF33   \30B4\30B7\30C3\30AF', 'Osaka', sans-serif;
+    font-family: メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, ＭＳ ゴシック, Osaka, sans-serif;
     margin: 0;
     border-top: #487890 3px solid; }
   a {
@@ -4703,10 +4703,10 @@ h6 {
     font-size: 15.0615px;
     font-weight: normal; }
   h5 {
-    font-size: 13.55535px;
+    font-size: 12.0492px;
     font-weight: normal; }
   h6 {
-    font-size: 11.29613px;
+    font-size: 9.78998px;
     font-weight: lighter; }
   .nolink {
     cursor: default;
@@ -4732,7 +4732,7 @@ h6 {
     background: url(../image/background.png);
     color: #0f0f0f;
     font-size: 14.041px;
-    font-family: '\30E1\30A4\30EA\30AA', 'Meiryo', '\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3', 'Hiragino Kaku Gothic Pro', '\FF2D\FF33   \30B4\30B7\30C3\30AF', 'Osaka', sans-serif;
+    font-family: メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, ＭＳ ゴシック, Osaka, sans-serif;
     margin: 0;
     border-top: #487890 3px solid; }
   a {
@@ -4755,10 +4755,10 @@ h6 {
     font-size: 14.041px;
     font-weight: normal; }
   h5 {
-    font-size: 12.6369px;
+    font-size: 11.2328px;
     font-weight: normal; }
   h6 {
-    font-size: 10.53075px;
+    font-size: 9.12665px;
     font-weight: lighter; }
   .nolink {
     cursor: default;
@@ -4784,7 +4784,7 @@ h6 {
     background: url(../image/background.png);
     color: #0f0f0f;
     font-size: 12.72893px;
-    font-family: '\30E1\30A4\30EA\30AA', 'Meiryo', '\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3', 'Hiragino Kaku Gothic Pro', '\FF2D\FF33   \30B4\30B7\30C3\30AF', 'Osaka', sans-serif;
+    font-family: メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, ＭＳ ゴシック, Osaka, sans-serif;
     margin: 0;
     border-top: #487890 3px solid; }
   a {
@@ -4807,10 +4807,10 @@ h6 {
     font-size: 12.72893px;
     font-weight: normal; }
   h5 {
-    font-size: 11.45604px;
+    font-size: 10.18314px;
     font-weight: normal; }
   h6 {
-    font-size: 9.5467px;
+    font-size: 8.2738px;
     font-weight: lighter; }
   .nolink {
     cursor: default;
@@ -4836,7 +4836,7 @@ h6 {
     background: url(../image/background.png);
     color: #0f0f0f;
     font-size: 12px;
-    font-family: '\30E1\30A4\30EA\30AA', 'Meiryo', '\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3', 'Hiragino Kaku Gothic Pro', '\FF2D\FF33   \30B4\30B7\30C3\30AF', 'Osaka', sans-serif;
+    font-family: メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, ＭＳ ゴシック, Osaka, sans-serif;
     margin: 0;
     border-top: #487890 3px solid; }
   a {
@@ -4859,10 +4859,10 @@ h6 {
     font-size: 12px;
     font-weight: normal; }
   h5 {
-    font-size: 10.8px;
+    font-size: 9.6px;
     font-weight: normal; }
   h6 {
-    font-size: 9px;
+    font-size: 7.8px;
     font-weight: lighter; }
   .nolink {
     cursor: default;
@@ -5016,7 +5016,16 @@ h6 {
       color: #808080;
       margin-right: 5px; }
   .article-list .summary-post .summary-description {
-    padding: 15px; }
+    padding: 15px 20px; }
+    .article-list .summary-post .summary-description p {
+      padding: 25px 0 0;
+      line-height: 22.4px;
+      letter-spacing: 0.5px; }
+    .article-list .summary-post .summary-description img {
+      width: 100%;
+      box-sizing: border-box;
+      border: #f8f8f8 6px solid;
+      box-shadow: 2px 2px 5px rgba(15, 15, 15, 0.6); }
   .article-list .summary-post .taxonomy-list ul {
     list-style: none;
     padding: 15px; }
@@ -5250,7 +5259,16 @@ h6 {
         color: #808080;
         margin-right: 5px; }
     .article-list .summary-post .summary-description {
-      padding: 14.25px; }
+      padding: 14.25px 19px; }
+      .article-list .summary-post .summary-description p {
+        padding: 23.75px 0 0;
+        line-height: 22.4px;
+        letter-spacing: 0.5px; }
+      .article-list .summary-post .summary-description img {
+        width: 100%;
+        box-sizing: border-box;
+        border: #f8f8f8 6px solid;
+        box-shadow: 2px 2px 5px rgba(15, 15, 15, 0.6); }
     .article-list .summary-post .taxonomy-list ul {
       list-style: none;
       padding: 14.25px; }
@@ -5475,7 +5493,16 @@ h6 {
         color: #808080;
         margin-right: 5px; }
     .article-list .summary-post .summary-description {
-      padding: 13.01822px; }
+      padding: 13.01822px 17.35763px; }
+      .article-list .summary-post .summary-description p {
+        padding: 21.69704px 0 0;
+        line-height: 21.0861px;
+        letter-spacing: 0.5px; }
+      .article-list .summary-post .summary-description img {
+        width: 100%;
+        box-sizing: border-box;
+        border: #f8f8f8 6px solid;
+        box-shadow: 2px 2px 5px rgba(15, 15, 15, 0.6); }
     .article-list .summary-post .taxonomy-list ul {
       list-style: none;
       padding: 13.01822px; }
@@ -5700,7 +5727,16 @@ h6 {
         color: #808080;
         margin-right: 5px; }
     .article-list .summary-post .summary-description {
-      padding: 11.67882px; }
+      padding: 11.67882px 15.57175px; }
+      .article-list .summary-post .summary-description p {
+        padding: 19.46469px 0 0;
+        line-height: 19.6574px;
+        letter-spacing: 0.5px; }
+      .article-list .summary-post .summary-description img {
+        width: 100%;
+        box-sizing: border-box;
+        border: #f8f8f8 6px solid;
+        box-shadow: 2px 2px 5px rgba(15, 15, 15, 0.6); }
     .article-list .summary-post .taxonomy-list ul {
       list-style: none;
       padding: 11.67882px; }
@@ -5936,7 +5972,16 @@ h6 {
         color: #808080;
         margin-right: 5px; }
     .article-list .summary-post .summary-description {
-      padding: 9.95672px; }
+      padding: 9.95672px 13.27563px; }
+      .article-list .summary-post .summary-description p {
+        padding: 16.59453px 0 0;
+        line-height: 17.8205px;
+        letter-spacing: 0.5px; }
+      .article-list .summary-post .summary-description img {
+        width: 100%;
+        box-sizing: border-box;
+        border: #f8f8f8 6px solid;
+        box-shadow: 2px 2px 5px rgba(15, 15, 15, 0.6); }
     .article-list .summary-post .taxonomy-list ul {
       list-style: none;
       padding: 9.95672px; }
@@ -6172,7 +6217,16 @@ h6 {
         color: #808080;
         margin-right: 5px; }
     .article-list .summary-post .summary-description {
-      padding: 9px; }
+      padding: 9px 12px; }
+      .article-list .summary-post .summary-description p {
+        padding: 15px 0 0;
+        line-height: 16.8px;
+        letter-spacing: 0.5px; }
+      .article-list .summary-post .summary-description img {
+        width: 100%;
+        box-sizing: border-box;
+        border: #f8f8f8 6px solid;
+        box-shadow: 2px 2px 5px rgba(15, 15, 15, 0.6); }
     .article-list .summary-post .taxonomy-list ul {
       list-style: none;
       padding: 9px; }

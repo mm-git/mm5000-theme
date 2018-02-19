@@ -191,7 +191,18 @@
       }
 
       .summary-description {
-        padding: 15px * $ratio;
+        padding: 15px * $ratio 20px * $ratio;
+
+        p {
+          padding: $inter_section_height * $ratio 0 0;
+          line-height: $font_size * 1.4;
+          letter-spacing: 0.5px;
+        }
+
+        img {
+          width: 100%;
+          @include picture_frame();
+        }
       }
 
       .taxonomy-list {
