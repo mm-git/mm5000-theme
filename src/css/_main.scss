@@ -194,14 +194,21 @@
         padding: 15px * $ratio 20px * $ratio;
 
         p {
-          padding: $inter_section_height * $ratio 0 0;
+          padding-top: $inter_section_height * $ratio;
           line-height: $font_size * 1.4;
           letter-spacing: 0.5px;
         }
 
-        img {
+        .article-picture {
+          margin: $inter_section_height * $ratio 0 0;
           width: 100%;
           @include picture_frame();
+        }
+
+        h2 {
+          padding-top: $inter_section_height * $ratio * 2;
+          padding-left: 10px * $ratio;
+          border-bottom: $base_color_blue 3px solid;
         }
       }
 

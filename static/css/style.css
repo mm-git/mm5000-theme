@@ -4563,7 +4563,7 @@ input, select {
 body {
   background: url(../image/background.png);
   color: #0f0f0f;
-  font-size: 16px;
+  font-size: 18px;
   font-family: メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, ＭＳ ゴシック, Osaka, sans-serif;
   margin: 0;
   border-top: #487890 3px solid; }
@@ -4577,27 +4577,27 @@ a {
     text-decoration: underline; }
 
 h1 {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: bolder; }
 
 h2 {
-  font-size: 24px;
+  font-size: 27px;
   font-weight: bold; }
 
 h3 {
-  font-size: 19.2px;
+  font-size: 21.6px;
   font-weight: bold; }
 
 h4 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: normal; }
 
 h5 {
-  font-size: 12.8px;
+  font-size: 14.4px;
   font-weight: normal; }
 
 h6 {
-  font-size: 10.4px;
+  font-size: 11.7px;
   font-weight: lighter; }
 
 .nolink {
@@ -4627,7 +4627,7 @@ h6 {
   body {
     background: url(../image/background.png);
     color: #0f0f0f;
-    font-size: 16px;
+    font-size: 18px;
     font-family: メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, ＭＳ ゴシック, Osaka, sans-serif;
     margin: 0;
     border-top: #487890 3px solid; }
@@ -4639,22 +4639,22 @@ h6 {
       color: #4f4f4f;
       text-decoration: underline; }
   h1 {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: bolder; }
   h2 {
-    font-size: 24px;
+    font-size: 27px;
     font-weight: bold; }
   h3 {
-    font-size: 19.2px;
+    font-size: 21.6px;
     font-weight: bold; }
   h4 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: normal; }
   h5 {
-    font-size: 12.8px;
+    font-size: 14.4px;
     font-weight: normal; }
   h6 {
-    font-size: 10.4px;
+    font-size: 11.7px;
     font-weight: lighter; }
   .nolink {
     cursor: default;
@@ -4679,7 +4679,7 @@ h6 {
   body {
     background: url(../image/background.png);
     color: #0f0f0f;
-    font-size: 15.0615px;
+    font-size: 17.0615px;
     font-family: メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, ＭＳ ゴシック, Osaka, sans-serif;
     margin: 0;
     border-top: #487890 3px solid; }
@@ -4691,22 +4691,22 @@ h6 {
       color: #4f4f4f;
       text-decoration: underline; }
   h1 {
-    font-size: 30.12301px;
+    font-size: 34.12301px;
     font-weight: bolder; }
   h2 {
-    font-size: 22.59226px;
+    font-size: 25.59226px;
     font-weight: bold; }
   h3 {
-    font-size: 18.0738px;
+    font-size: 20.4738px;
     font-weight: bold; }
   h4 {
-    font-size: 15.0615px;
+    font-size: 17.0615px;
     font-weight: normal; }
   h5 {
-    font-size: 12.0492px;
+    font-size: 13.6492px;
     font-weight: normal; }
   h6 {
-    font-size: 9.78998px;
+    font-size: 11.08998px;
     font-weight: lighter; }
   .nolink {
     cursor: default;
@@ -4731,7 +4731,7 @@ h6 {
   body {
     background: url(../image/background.png);
     color: #0f0f0f;
-    font-size: 14.041px;
+    font-size: 16.041px;
     font-family: メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, ＭＳ ゴシック, Osaka, sans-serif;
     margin: 0;
     border-top: #487890 3px solid; }
@@ -4743,22 +4743,22 @@ h6 {
       color: #4f4f4f;
       text-decoration: underline; }
   h1 {
-    font-size: 28.082px;
+    font-size: 32.082px;
     font-weight: bolder; }
   h2 {
-    font-size: 21.0615px;
+    font-size: 24.0615px;
     font-weight: bold; }
   h3 {
-    font-size: 16.8492px;
+    font-size: 19.2492px;
     font-weight: bold; }
   h4 {
-    font-size: 14.041px;
+    font-size: 16.041px;
     font-weight: normal; }
   h5 {
-    font-size: 11.2328px;
+    font-size: 12.8328px;
     font-weight: normal; }
   h6 {
-    font-size: 9.12665px;
+    font-size: 10.42665px;
     font-weight: lighter; }
   .nolink {
     cursor: default;
@@ -4783,7 +4783,7 @@ h6 {
   body {
     background: url(../image/background.png);
     color: #0f0f0f;
-    font-size: 12.72893px;
+    font-size: 14.72893px;
     font-family: メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, ＭＳ ゴシック, Osaka, sans-serif;
     margin: 0;
     border-top: #487890 3px solid; }
@@ -4795,22 +4795,22 @@ h6 {
       color: #4f4f4f;
       text-decoration: underline; }
   h1 {
-    font-size: 25.45786px;
+    font-size: 29.45786px;
     font-weight: bolder; }
   h2 {
-    font-size: 19.09339px;
+    font-size: 22.09339px;
     font-weight: bold; }
   h3 {
-    font-size: 15.27472px;
+    font-size: 17.67472px;
     font-weight: bold; }
   h4 {
-    font-size: 12.72893px;
+    font-size: 14.72893px;
     font-weight: normal; }
   h5 {
-    font-size: 10.18314px;
+    font-size: 11.78314px;
     font-weight: normal; }
   h6 {
-    font-size: 8.2738px;
+    font-size: 9.5738px;
     font-weight: lighter; }
   .nolink {
     cursor: default;
@@ -4835,7 +4835,7 @@ h6 {
   body {
     background: url(../image/background.png);
     color: #0f0f0f;
-    font-size: 12px;
+    font-size: 14px;
     font-family: メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, ＭＳ ゴシック, Osaka, sans-serif;
     margin: 0;
     border-top: #487890 3px solid; }
@@ -4847,22 +4847,22 @@ h6 {
       color: #4f4f4f;
       text-decoration: underline; }
   h1 {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bolder; }
   h2 {
-    font-size: 18px;
+    font-size: 21px;
     font-weight: bold; }
   h3 {
-    font-size: 14.4px;
+    font-size: 16.8px;
     font-weight: bold; }
   h4 {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal; }
   h5 {
-    font-size: 9.6px;
+    font-size: 11.2px;
     font-weight: normal; }
   h6 {
-    font-size: 7.8px;
+    font-size: 9.1px;
     font-weight: lighter; }
   .nolink {
     cursor: default;
@@ -4918,9 +4918,9 @@ h6 {
   .navigation .navigation-menu {
     text-decoration: none;
     display: block;
-    font-size: 14px;
-    height: 14px;
-    line-height: 14px;
+    font-size: 16px;
+    height: 16px;
+    line-height: 16px;
     padding: 12px 10px;
     color: #f8f8f8;
     transition: all 300ms ease-out; }
@@ -5018,14 +5018,19 @@ h6 {
   .article-list .summary-post .summary-description {
     padding: 15px 20px; }
     .article-list .summary-post .summary-description p {
-      padding: 25px 0 0;
-      line-height: 22.4px;
+      padding-top: 25px;
+      line-height: 25.2px;
       letter-spacing: 0.5px; }
-    .article-list .summary-post .summary-description img {
+    .article-list .summary-post .summary-description .article-picture {
+      margin: 25px 0 0;
       width: 100%;
       box-sizing: border-box;
       border: #f8f8f8 6px solid;
       box-shadow: 2px 2px 5px rgba(15, 15, 15, 0.6); }
+    .article-list .summary-post .summary-description h2 {
+      padding-top: 50px;
+      padding-left: 10px;
+      border-bottom: #487890 3px solid; }
   .article-list .summary-post .taxonomy-list ul {
     list-style: none;
     padding: 15px; }
@@ -5033,7 +5038,7 @@ h6 {
       margin: 5px 10px; }
       .article-list .summary-post .taxonomy-list ul li a {
         color: #487890;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: normal; }
         .article-list .summary-post .taxonomy-list ul li a:hover {
           color: #568eab; }
@@ -5042,7 +5047,7 @@ h6 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 15.2px; }
+    font-size: 17.1px; }
     .article-list .summary-post .pagination .disable-arrow {
       color: #808080; }
 
@@ -5050,14 +5055,14 @@ h6 {
   padding-right: 10px; }
   .share-links ul:before {
     color: #808080;
-    font-size: 14px;
+    font-size: 16px;
     content: "\8A18\4E8B\3092\30B7\30A7\30A2";
     line-height: 36px; }
 
 .article-footer {
   background: #f3f3f3;
   line-height: 35px;
-  font-size: 13.6px; }
+  font-size: 15.3px; }
   .article-footer div {
     padding: 0 15px;
     min-width: 100px; }
@@ -5087,7 +5092,7 @@ h6 {
     margin: 5px 10px; }
     .widget-list .widget-contents ul li a {
       color: #487890;
-      font-size: 16px;
+      font-size: 18px;
       font-weight: normal; }
       .widget-list .widget-contents ul li a:hover {
         color: #568eab; }
@@ -5098,8 +5103,8 @@ h6 {
       padding: 2px 6px;
       color: #f8f8f8;
       background: #b8b8b8;
-      font-size: 12.8px;
-      border-radius: 12.8px; }
+      font-size: 14.4px;
+      border-radius: 14.4px; }
 
 .widget-list .widget-contents[tags] ul {
   display: flex;
@@ -5118,7 +5123,7 @@ h6 {
       border: #487890 1px solid; }
 
 .footer {
-  font-size: 12px;
+  font-size: 13.5px;
   max-width: 85vw;
   height: 20px;
   margin: 0 auto;
@@ -5129,11 +5134,11 @@ h6 {
 
 .help-block {
   color: #424242;
-  font-size: 14px; }
+  font-size: 16px; }
 
 .help-indent {
-  padding-left: 32px;
-  padding-right: 16px; }
+  padding-left: 36px;
+  padding-right: 18px; }
 
 @media screen and (max-width: 1198px) {
   .main_container {
@@ -5165,9 +5170,9 @@ h6 {
     .navigation .navigation-menu {
       text-decoration: none;
       display: block;
-      font-size: 14px;
-      height: 14px;
-      line-height: 14px;
+      font-size: 16px;
+      height: 16px;
+      line-height: 16px;
       padding: 11.4px 9.5px;
       color: #f8f8f8;
       transition: all 300ms ease-out; }
@@ -5261,14 +5266,19 @@ h6 {
     .article-list .summary-post .summary-description {
       padding: 14.25px 19px; }
       .article-list .summary-post .summary-description p {
-        padding: 23.75px 0 0;
-        line-height: 22.4px;
+        padding-top: 23.75px;
+        line-height: 25.2px;
         letter-spacing: 0.5px; }
-      .article-list .summary-post .summary-description img {
+      .article-list .summary-post .summary-description .article-picture {
+        margin: 23.75px 0 0;
         width: 100%;
         box-sizing: border-box;
         border: #f8f8f8 6px solid;
         box-shadow: 2px 2px 5px rgba(15, 15, 15, 0.6); }
+      .article-list .summary-post .summary-description h2 {
+        padding-top: 47.5px;
+        padding-left: 9.5px;
+        border-bottom: #487890 3px solid; }
     .article-list .summary-post .taxonomy-list ul {
       list-style: none;
       padding: 14.25px; }
@@ -5276,7 +5286,7 @@ h6 {
         margin: 5px 9.5px; }
         .article-list .summary-post .taxonomy-list ul li a {
           color: #487890;
-          font-size: 16px;
+          font-size: 18px;
           font-weight: normal; }
           .article-list .summary-post .taxonomy-list ul li a:hover {
             color: #568eab; }
@@ -5285,20 +5295,20 @@ h6 {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      font-size: 15.2px; }
+      font-size: 17.1px; }
       .article-list .summary-post .pagination .disable-arrow {
         color: #808080; }
   .share-links {
     padding-right: 9.5px; }
     .share-links ul:before {
       color: #808080;
-      font-size: 14px;
+      font-size: 16px;
       content: "\8A18\4E8B\3092\30B7\30A7\30A2";
       line-height: 34.2px; }
   .article-footer {
     background: #f3f3f3;
     line-height: 33.25px;
-    font-size: 13.6px; }
+    font-size: 15.3px; }
     .article-footer div {
       padding: 0 14.25px;
       min-width: 100px; }
@@ -5325,7 +5335,7 @@ h6 {
       margin: 5px 9.5px; }
       .widget-list .widget-contents ul li a {
         color: #487890;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: normal; }
         .widget-list .widget-contents ul li a:hover {
           color: #568eab; }
@@ -5336,8 +5346,8 @@ h6 {
         padding: 2px 6px;
         color: #f8f8f8;
         background: #b8b8b8;
-        font-size: 12.8px;
-        border-radius: 12.8px; }
+        font-size: 14.4px;
+        border-radius: 14.4px; }
   .widget-list .widget-contents[tags] ul {
     display: flex;
     flex-wrap: wrap; }
@@ -5354,7 +5364,7 @@ h6 {
       .widget-list .widget-contents[tags] ul li:hover {
         border: #487890 1px solid; }
   .footer {
-    font-size: 12px;
+    font-size: 13.5px;
     max-width: 85vw;
     height: 19px;
     margin: 0 auto;
@@ -5364,10 +5374,10 @@ h6 {
       margin-bottom: 0; }
   .help-block {
     color: #424242;
-    font-size: 14px; }
+    font-size: 16px; }
   .help-indent {
-    padding-left: 32px;
-    padding-right: 16px; } }
+    padding-left: 36px;
+    padding-right: 18px; } }
 
 @media screen and (max-width: 992px) {
   .main_container {
@@ -5399,9 +5409,9 @@ h6 {
     .navigation .navigation-menu {
       text-decoration: none;
       display: block;
-      font-size: 13.0615px;
-      height: 13.0615px;
-      line-height: 13.0615px;
+      font-size: 15.0615px;
+      height: 15.0615px;
+      line-height: 15.0615px;
       padding: 10.41458px 8.67882px;
       color: #f8f8f8;
       transition: all 300ms ease-out; }
@@ -5495,14 +5505,19 @@ h6 {
     .article-list .summary-post .summary-description {
       padding: 13.01822px 17.35763px; }
       .article-list .summary-post .summary-description p {
-        padding: 21.69704px 0 0;
-        line-height: 21.0861px;
+        padding-top: 21.69704px;
+        line-height: 23.8861px;
         letter-spacing: 0.5px; }
-      .article-list .summary-post .summary-description img {
+      .article-list .summary-post .summary-description .article-picture {
+        margin: 21.69704px 0 0;
         width: 100%;
         box-sizing: border-box;
         border: #f8f8f8 6px solid;
         box-shadow: 2px 2px 5px rgba(15, 15, 15, 0.6); }
+      .article-list .summary-post .summary-description h2 {
+        padding-top: 43.39408px;
+        padding-left: 8.67882px;
+        border-bottom: #487890 3px solid; }
     .article-list .summary-post .taxonomy-list ul {
       list-style: none;
       padding: 13.01822px; }
@@ -5510,7 +5525,7 @@ h6 {
         margin: 5px 8.67882px; }
         .article-list .summary-post .taxonomy-list ul li a {
           color: #487890;
-          font-size: 15.0615px;
+          font-size: 17.0615px;
           font-weight: normal; }
           .article-list .summary-post .taxonomy-list ul li a:hover {
             color: #568eab; }
@@ -5519,20 +5534,20 @@ h6 {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      font-size: 14.30843px; }
+      font-size: 16.20843px; }
       .article-list .summary-post .pagination .disable-arrow {
         color: #808080; }
   .share-links {
     padding-right: 8.67882px; }
     .share-links ul:before {
       color: #808080;
-      font-size: 13.0615px;
+      font-size: 15.0615px;
       content: "\8A18\4E8B\3092\30B7\30A7\30A2";
       line-height: 31.24374px; }
   .article-footer {
     background: #f3f3f3;
     line-height: 30.37585px;
-    font-size: 12.80228px; }
+    font-size: 14.50228px; }
     .article-footer div {
       padding: 0 13.01822px;
       min-width: 100px; }
@@ -5559,7 +5574,7 @@ h6 {
       margin: 5px 8.67882px; }
       .widget-list .widget-contents ul li a {
         color: #487890;
-        font-size: 15.0615px;
+        font-size: 17.0615px;
         font-weight: normal; }
         .widget-list .widget-contents ul li a:hover {
           color: #568eab; }
@@ -5570,8 +5585,8 @@ h6 {
         padding: 2px 6px;
         color: #f8f8f8;
         background: #b8b8b8;
-        font-size: 12.0492px;
-        border-radius: 12.0492px; }
+        font-size: 13.6492px;
+        border-radius: 13.6492px; }
   .widget-list .widget-contents[tags] ul {
     display: flex;
     flex-wrap: wrap; }
@@ -5588,7 +5603,7 @@ h6 {
       .widget-list .widget-contents[tags] ul li:hover {
         border: #487890 1px solid; }
   .footer {
-    font-size: 11.29613px;
+    font-size: 12.79613px;
     max-width: 85vw;
     height: 17.35763px;
     margin: 0 auto;
@@ -5598,10 +5613,10 @@ h6 {
       margin-bottom: 0; }
   .help-block {
     color: #424242;
-    font-size: 13.0615px; }
+    font-size: 15.0615px; }
   .help-indent {
-    padding-left: 30.12301px;
-    padding-right: 15.0615px; } }
+    padding-left: 34.12301px;
+    padding-right: 17.0615px; } }
 
 @media screen and (max-width: 768px) {
   .main_container {
@@ -5633,9 +5648,9 @@ h6 {
     .navigation .navigation-menu {
       text-decoration: none;
       display: block;
-      font-size: 12.041px;
-      height: 12.041px;
-      line-height: 12.041px;
+      font-size: 14.041px;
+      height: 14.041px;
+      line-height: 14.041px;
       padding: 9.34305px 7.78588px;
       color: #f8f8f8;
       transition: all 300ms ease-out; }
@@ -5729,14 +5744,19 @@ h6 {
     .article-list .summary-post .summary-description {
       padding: 11.67882px 15.57175px; }
       .article-list .summary-post .summary-description p {
-        padding: 19.46469px 0 0;
-        line-height: 19.6574px;
+        padding-top: 19.46469px;
+        line-height: 22.4574px;
         letter-spacing: 0.5px; }
-      .article-list .summary-post .summary-description img {
+      .article-list .summary-post .summary-description .article-picture {
+        margin: 19.46469px 0 0;
         width: 100%;
         box-sizing: border-box;
         border: #f8f8f8 6px solid;
         box-shadow: 2px 2px 5px rgba(15, 15, 15, 0.6); }
+      .article-list .summary-post .summary-description h2 {
+        padding-top: 38.92938px;
+        padding-left: 7.78588px;
+        border-bottom: #487890 3px solid; }
     .article-list .summary-post .taxonomy-list ul {
       list-style: none;
       padding: 11.67882px; }
@@ -5744,7 +5764,7 @@ h6 {
         margin: 5px 7.78588px; }
         .article-list .summary-post .taxonomy-list ul li a {
           color: #487890;
-          font-size: 14.041px;
+          font-size: 16.041px;
           font-weight: normal; }
           .article-list .summary-post .taxonomy-list ul li a:hover {
             color: #568eab; }
@@ -5753,20 +5773,20 @@ h6 {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      font-size: 13.33895px; }
+      font-size: 15.23895px; }
       .article-list .summary-post .pagination .disable-arrow {
         color: #808080; }
   .share-links {
     padding-right: 7.78588px; }
     .share-links ul:before {
       color: #808080;
-      font-size: 12.041px;
+      font-size: 14.041px;
       content: "\8A18\4E8B\3092\30B7\30A7\30A2";
       line-height: 28.02916px; }
   .article-footer {
     background: #f3f3f3;
     line-height: 27.25057px;
-    font-size: 11.93485px; }
+    font-size: 13.63485px; }
     .article-footer div {
       padding: 0 11.67882px;
       min-width: 100px; }
@@ -5793,7 +5813,7 @@ h6 {
       margin: 5px 7.78588px; }
       .widget-list .widget-contents ul li a {
         color: #487890;
-        font-size: 14.041px;
+        font-size: 16.041px;
         font-weight: normal; }
         .widget-list .widget-contents ul li a:hover {
           color: #568eab; }
@@ -5804,8 +5824,8 @@ h6 {
         padding: 2px 6px;
         color: #f8f8f8;
         background: #b8b8b8;
-        font-size: 11.2328px;
-        border-radius: 11.2328px; }
+        font-size: 12.8328px;
+        border-radius: 12.8328px; }
   .widget-list .widget-contents[tags] ul {
     display: flex;
     flex-wrap: wrap; }
@@ -5822,7 +5842,7 @@ h6 {
       .widget-list .widget-contents[tags] ul li:hover {
         border: #487890 1px solid; }
   .footer {
-    font-size: 10.53075px;
+    font-size: 12.03075px;
     max-width: 85vw;
     height: 15.57175px;
     margin: 0 auto;
@@ -5832,10 +5852,10 @@ h6 {
       margin-bottom: 0; }
   .help-block {
     color: #424242;
-    font-size: 12.041px; }
+    font-size: 14.041px; }
   .help-indent {
-    padding-left: 28.082px;
-    padding-right: 14.041px; }
+    padding-left: 32.082px;
+    padding-right: 16.041px; }
   .slider .slide .slide-text {
     display: none; }
   .contents {
@@ -5878,9 +5898,9 @@ h6 {
     .navigation .navigation-menu {
       text-decoration: none;
       display: block;
-      font-size: 10.72893px;
-      height: 10.72893px;
-      line-height: 10.72893px;
+      font-size: 12.72893px;
+      height: 12.72893px;
+      line-height: 12.72893px;
       padding: 7.96538px 6.63781px;
       color: #f8f8f8;
       transition: all 300ms ease-out; }
@@ -5974,14 +5994,19 @@ h6 {
     .article-list .summary-post .summary-description {
       padding: 9.95672px 13.27563px; }
       .article-list .summary-post .summary-description p {
-        padding: 16.59453px 0 0;
-        line-height: 17.8205px;
+        padding-top: 16.59453px;
+        line-height: 20.6205px;
         letter-spacing: 0.5px; }
-      .article-list .summary-post .summary-description img {
+      .article-list .summary-post .summary-description .article-picture {
+        margin: 16.59453px 0 0;
         width: 100%;
         box-sizing: border-box;
         border: #f8f8f8 6px solid;
         box-shadow: 2px 2px 5px rgba(15, 15, 15, 0.6); }
+      .article-list .summary-post .summary-description h2 {
+        padding-top: 33.18907px;
+        padding-left: 6.63781px;
+        border-bottom: #487890 3px solid; }
     .article-list .summary-post .taxonomy-list ul {
       list-style: none;
       padding: 9.95672px; }
@@ -5989,7 +6014,7 @@ h6 {
         margin: 5px 6.63781px; }
         .article-list .summary-post .taxonomy-list ul li a {
           color: #487890;
-          font-size: 12.72893px;
+          font-size: 14.72893px;
           font-weight: normal; }
           .article-list .summary-post .taxonomy-list ul li a:hover {
             color: #568eab; }
@@ -5998,20 +6023,20 @@ h6 {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      font-size: 12.09248px; }
+      font-size: 13.99248px; }
       .article-list .summary-post .pagination .disable-arrow {
         color: #808080; }
   .share-links {
     padding-right: 6.63781px; }
     .share-links ul:before {
       color: #808080;
-      font-size: 10.72893px;
+      font-size: 12.72893px;
       content: "\8A18\4E8B\3092\30B7\30A7\30A2";
       line-height: 23.89613px; }
   .article-footer {
     background: #f3f3f3;
     line-height: 23.23235px;
-    font-size: 10.81959px; }
+    font-size: 12.51959px; }
     .article-footer div {
       padding: 0 9.95672px;
       min-width: 100px; }
@@ -6038,7 +6063,7 @@ h6 {
       margin: 5px 6.63781px; }
       .widget-list .widget-contents ul li a {
         color: #487890;
-        font-size: 12.72893px;
+        font-size: 14.72893px;
         font-weight: normal; }
         .widget-list .widget-contents ul li a:hover {
           color: #568eab; }
@@ -6049,8 +6074,8 @@ h6 {
         padding: 2px 6px;
         color: #f8f8f8;
         background: #b8b8b8;
-        font-size: 10.18314px;
-        border-radius: 10.18314px; }
+        font-size: 11.78314px;
+        border-radius: 11.78314px; }
   .widget-list .widget-contents[tags] ul {
     display: flex;
     flex-wrap: wrap; }
@@ -6067,7 +6092,7 @@ h6 {
       .widget-list .widget-contents[tags] ul li:hover {
         border: #487890 1px solid; }
   .footer {
-    font-size: 9.5467px;
+    font-size: 11.0467px;
     max-width: 85vw;
     height: 13.27563px;
     margin: 0 auto;
@@ -6077,10 +6102,10 @@ h6 {
       margin-bottom: 0; }
   .help-block {
     color: #424242;
-    font-size: 10.72893px; }
+    font-size: 12.72893px; }
   .help-indent {
-    padding-left: 25.45786px;
-    padding-right: 12.72893px; }
+    padding-left: 29.45786px;
+    padding-right: 14.72893px; }
   .slider .slide .slide-text {
     display: none; }
   .contents {
@@ -6123,9 +6148,9 @@ h6 {
     .navigation .navigation-menu {
       text-decoration: none;
       display: block;
-      font-size: 10px;
-      height: 10px;
-      line-height: 10px;
+      font-size: 12px;
+      height: 12px;
+      line-height: 12px;
       padding: 7.2px 6px;
       color: #f8f8f8;
       transition: all 300ms ease-out; }
@@ -6219,14 +6244,19 @@ h6 {
     .article-list .summary-post .summary-description {
       padding: 9px 12px; }
       .article-list .summary-post .summary-description p {
-        padding: 15px 0 0;
-        line-height: 16.8px;
+        padding-top: 15px;
+        line-height: 19.6px;
         letter-spacing: 0.5px; }
-      .article-list .summary-post .summary-description img {
+      .article-list .summary-post .summary-description .article-picture {
+        margin: 15px 0 0;
         width: 100%;
         box-sizing: border-box;
         border: #f8f8f8 6px solid;
         box-shadow: 2px 2px 5px rgba(15, 15, 15, 0.6); }
+      .article-list .summary-post .summary-description h2 {
+        padding-top: 30px;
+        padding-left: 6px;
+        border-bottom: #487890 3px solid; }
     .article-list .summary-post .taxonomy-list ul {
       list-style: none;
       padding: 9px; }
@@ -6234,7 +6264,7 @@ h6 {
         margin: 5px 6px; }
         .article-list .summary-post .taxonomy-list ul li a {
           color: #487890;
-          font-size: 12px;
+          font-size: 14px;
           font-weight: normal; }
           .article-list .summary-post .taxonomy-list ul li a:hover {
             color: #568eab; }
@@ -6243,20 +6273,20 @@ h6 {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      font-size: 11.4px; }
+      font-size: 13.3px; }
       .article-list .summary-post .pagination .disable-arrow {
         color: #808080; }
   .share-links {
     padding-right: 6px; }
     .share-links ul:before {
       color: #808080;
-      font-size: 10px;
+      font-size: 12px;
       content: "\8A18\4E8B\3092\30B7\30A7\30A2";
       line-height: 21.6px; }
   .article-footer {
     background: #f3f3f3;
     line-height: 21px;
-    font-size: 10.2px; }
+    font-size: 11.9px; }
     .article-footer div {
       padding: 0 9px;
       min-width: 100px; }
@@ -6283,7 +6313,7 @@ h6 {
       margin: 5px 6px; }
       .widget-list .widget-contents ul li a {
         color: #487890;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: normal; }
         .widget-list .widget-contents ul li a:hover {
           color: #568eab; }
@@ -6294,8 +6324,8 @@ h6 {
         padding: 2px 6px;
         color: #f8f8f8;
         background: #b8b8b8;
-        font-size: 9.6px;
-        border-radius: 9.6px; }
+        font-size: 11.2px;
+        border-radius: 11.2px; }
   .widget-list .widget-contents[tags] ul {
     display: flex;
     flex-wrap: wrap; }
@@ -6312,7 +6342,7 @@ h6 {
       .widget-list .widget-contents[tags] ul li:hover {
         border: #487890 1px solid; }
   .footer {
-    font-size: 9px;
+    font-size: 10.5px;
     max-width: 85vw;
     height: 12px;
     margin: 0 auto;
@@ -6322,10 +6352,10 @@ h6 {
       margin-bottom: 0; }
   .help-block {
     color: #424242;
-    font-size: 10px; }
+    font-size: 12px; }
   .help-indent {
-    padding-left: 24px;
-    padding-right: 12px; }
+    padding-left: 28px;
+    padding-right: 14px; }
   .slider .slide .slide-text {
     display: none; }
   .contents {
